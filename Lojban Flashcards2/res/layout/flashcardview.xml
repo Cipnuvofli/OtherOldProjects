@@ -1,0 +1,43 @@
+<?xml version = "1.0" encoding = "utf-8"?>
+
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" 
+    android:baselineAligned="false" android:layout_height="wrap_content" android:layout_width="wrap_content" android:orientation="vertical">
+    	 <josephpenrod.Flashcard2.Flashcardview android:id="@+id/flashcardview" android:layout_width="wrap_content" android:layout_height="wrap_content"></josephpenrod.Flashcard2.Flashcardview>
+    	 <RelativeLayout android:layout_height="wrap_content" android:layout_width="match_parent" android:id="@+id/relativeLayout1">
+    	     <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/relativeLayout2" android:layout_alignParentLeft="true">
+    	         <Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/Back" android:id="@+id/Back"></Button>
+    	         <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toRightOf="@+id/button3" android:id="@+id/relativeLayout4" android:layout_alignTop="@+id/button3" android:layout_alignBottom="@+id/button3">
+    	         </RelativeLayout>
+    	     </RelativeLayout>
+    	     <RelativeLayout android:layout_width="wrap_content" android:layout_alignParentRight="true" android:layout_height="wrap_content" android:id="@+id/relativeLayout3">
+    	         <Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/Forward" android:id="@+id/Forward"></Button>
+    	     </RelativeLayout>
+
+    	     <Button
+    	         android:id="@+id/Flip"
+    	         android:layout_width="wrap_content"
+    	         android:layout_height="wrap_content"
+    	         android:layout_alignParentTop="true"
+    	         android:layout_marginLeft="25dp"
+    	         android:layout_toRightOf="@+id/relativeLayout2"
+    	         android:text="@string/Flip" />
+
+    	     <Button
+    	         android:id="@+id/button2"
+    	         android:layout_width="wrap_content"
+    	         android:layout_height="wrap_content"
+    	         android:layout_alignParentTop="true"
+    	         android:layout_marginLeft="33dp"
+    	         android:layout_toRightOf="@+id/Flip"
+    	         android:text="@string/delete" />
+
+    	 </RelativeLayout>
+
+    	 <Button
+    	     android:id="@+id/button1"
+    	     android:layout_width="wrap_content"
+    	     android:layout_height="wrap_content"
+    	     android:text="Save" />
+
+    </LinearLayout>

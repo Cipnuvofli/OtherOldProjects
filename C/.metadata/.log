@@ -1,0 +1,413 @@
+!SESSION 2011-01-21 14:14:05.312 -----------------------------------------------
+eclipse.buildId=M20100909-0800
+java.version=1.6.0_22
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.cpp.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.cpp.product
+
+!ENTRY org.eclipse.cdt.core 1 0 2011-01-21 14:15:39.406
+!MESSAGE Indexed 'Hello' (0 sources, 8 headers) in 0.20 sec: 0 declarations; 0 references; 8 unresolved inclusions; 0 syntax errors; 0 unresolved names (0.00%)
+
+!ENTRY org.eclipse.cdt.debug.core 4 105 2011-01-21 14:16:22.953
+!MESSAGE A program file was not specified in the launch configuration.
+
+!ENTRY org.eclipse.cdt.launch 4 150 2011-01-21 14:16:39.078
+!MESSAGE Error starting process.
+!STACK 0
+java.io.IOException: Cannot run program "C:\Documents and Settings\Jeffrey\workspace\C\Hello\hello.c": Launching failed
+	at org.eclipse.cdt.utils.spawner.Spawner.exec(Spawner.java:297)
+	at org.eclipse.cdt.utils.spawner.Spawner.<init>(Spawner.java:88)
+	at org.eclipse.cdt.utils.spawner.ProcessFactory.exec(ProcessFactory.java:89)
+	at org.eclipse.cdt.launch.internal.LocalCDILaunchDelegate.exec(LocalCDILaunchDelegate.java:381)
+	at org.eclipse.cdt.launch.internal.LocalCDILaunchDelegate.runLocalApplication(LocalCDILaunchDelegate.java:96)
+	at org.eclipse.cdt.launch.internal.LocalCDILaunchDelegate.launch(LocalCDILaunchDelegate.java:70)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:853)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:702)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:923)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1126)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.cdt.launch 4 150 2011-01-21 14:16:39.078
+!MESSAGE Cannot run program "C:\Documents and Settings\Jeffrey\workspace\C\Hello\hello.c": Launching failed
+!STACK 0
+java.io.IOException: Cannot run program "C:\Documents and Settings\Jeffrey\workspace\C\Hello\hello.c": Launching failed
+	at org.eclipse.cdt.utils.spawner.Spawner.exec(Spawner.java:297)
+	at org.eclipse.cdt.utils.spawner.Spawner.<init>(Spawner.java:88)
+	at org.eclipse.cdt.utils.spawner.ProcessFactory.exec(ProcessFactory.java:89)
+	at org.eclipse.cdt.launch.internal.LocalCDILaunchDelegate.exec(LocalCDILaunchDelegate.java:381)
+	at org.eclipse.cdt.launch.internal.LocalCDILaunchDelegate.runLocalApplication(LocalCDILaunchDelegate.java:96)
+	at org.eclipse.cdt.launch.internal.LocalCDILaunchDelegate.launch(LocalCDILaunchDelegate.java:70)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:853)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:702)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:923)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1126)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.cdt.debug.core 4 105 2011-01-21 14:18:30.984
+!MESSAGE A program file was not specified in the launch configuration.
+
+!ENTRY org.eclipse.cdt.debug.core 4 105 2011-01-21 14:18:48.781
+!MESSAGE A program file was not specified in the launch configuration.
+
+!ENTRY org.eclipse.cdt.debug.core 4 105 2011-01-21 14:19:02.312
+!MESSAGE A program file was not specified in the launch configuration.
+
+!ENTRY org.eclipse.cdt.debug.core 4 105 2011-01-21 14:19:17.750
+!MESSAGE A program file was not specified in the launch configuration.
+
+!ENTRY org.eclipse.equinox.p2.core 4 0 2011-01-21 14:29:25.640
+!MESSAGE Provisioning exception
+!STACK 1
+org.eclipse.equinox.p2.core.ProvisionException: No repository found at http://download.eclipse.org/dsdp/mtj/updates/1.0.2/stable/.
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.fail(AbstractRepositoryManager.java:391)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:675)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:96)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:92)
+	at org.eclipse.equinox.p2.ui.LoadMetadataRepositoryJob.doLoad(LoadMetadataRepositoryJob.java:115)
+	at org.eclipse.equinox.p2.ui.LoadMetadataRepositoryJob.runModal(LoadMetadataRepositoryJob.java:100)
+	at org.eclipse.equinox.internal.p2.ui.sdk.PreloadingRepositoryHandler$2.runModal(PreloadingRepositoryHandler.java:82)
+	at org.eclipse.equinox.p2.operations.ProvisioningJob.run(ProvisioningJob.java:177)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.equinox.p2.metadata.repository 4 1000 2011-01-21 14:29:25.640
+!MESSAGE No repository found at http://download.eclipse.org/dsdp/mtj/updates/1.0.2/stable/.
+
+!ENTRY org.eclipse.equinox.p2.core 4 0 2011-01-21 14:29:32.343
+!MESSAGE Provisioning exception
+!STACK 1
+org.eclipse.equinox.p2.core.ProvisionException: No repository found at http://dev.eclipse.org/svnroot/dsdp/org.eclipse.tm.tcf/releases/0.3.0.
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.fail(AbstractRepositoryManager.java:391)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:675)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:96)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:92)
+	at org.eclipse.equinox.p2.ui.LoadMetadataRepositoryJob.doLoad(LoadMetadataRepositoryJob.java:115)
+	at org.eclipse.equinox.p2.ui.LoadMetadataRepositoryJob.runModal(LoadMetadataRepositoryJob.java:100)
+	at org.eclipse.equinox.internal.p2.ui.sdk.PreloadingRepositoryHandler$2.runModal(PreloadingRepositoryHandler.java:82)
+	at org.eclipse.equinox.p2.operations.ProvisioningJob.run(ProvisioningJob.java:177)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.equinox.p2.metadata.repository 4 1000 2011-01-21 14:29:32.343
+!MESSAGE No repository found at http://dev.eclipse.org/svnroot/dsdp/org.eclipse.tm.tcf/releases/0.3.0.
+
+!ENTRY org.eclipse.cdt.core 1 0 2011-01-21 14:34:51.671
+!MESSAGE Indexed 'hello' (0 sources, 8 headers) in 0.02 sec: 0 declarations; 0 references; 8 unresolved inclusions; 0 syntax errors; 0 unresolved names (0.00%)
+!SESSION 2011-01-21 17:55:27.390 -----------------------------------------------
+eclipse.buildId=M20100909-0800
+java.version=1.6.0_22
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.cpp.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.cpp.product
+
+!ENTRY org.eclipse.cdt.core 1 0 2011-01-21 17:55:53.656
+!MESSAGE Indexed 'Hello' (0 sources, 9 headers) in 0.56 sec: 41 declarations; 169 references; 4 unresolved inclusions; 0 syntax errors; 0 unresolved names (0.00%)
+
+!ENTRY org.eclipse.cdt.debug.core 4 105 2011-01-21 17:59:00.671
+!MESSAGE A program file was not specified in the launch configuration.
+
+!ENTRY org.eclipse.cdt.debug.core 4 104 2011-01-21 17:59:18.187
+!MESSAGE The program file specified in the launch configuration does not exist
+!STACK 0
+java.io.FileNotFoundException: C:\Documents and Settings\Jeffrey\workspace\C\Hello\Hello.exe not found
+	at org.eclipse.cdt.debug.core.CDebugUtils.verifyProgramPath(CDebugUtils.java:663)
+	at org.eclipse.cdt.debug.core.CDebugUtils.verifyProgramPath(CDebugUtils.java:679)
+	at org.eclipse.cdt.launch.internal.LocalCDILaunchDelegate.runLocalApplication(LocalCDILaunchDelegate.java:84)
+	at org.eclipse.cdt.launch.internal.LocalCDILaunchDelegate.launch(LocalCDILaunchDelegate.java:70)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:853)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:702)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:923)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1126)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SESSION 2011-01-21 22:14:57.859 -----------------------------------------------
+eclipse.buildId=M20100909-0800
+java.version=1.6.0_22
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.cpp.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.cpp.product
+
+!ENTRY org.eclipse.cdt.core 1 0 2011-01-21 22:15:21.281
+!MESSAGE Indexed 'Hello' (0 sources, 8 headers) in 0.06 sec: 0 declarations; 0 references; 8 unresolved inclusions; 0 syntax errors; 0 unresolved names (0.00%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2011-01-21 22:17:09.328
+!MESSAGE Indexed 'Hello' (0 sources, 8 headers) in 0.02 sec: 0 declarations; 0 references; 8 unresolved inclusions; 0 syntax errors; 0 unresolved names (0.00%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2011-01-21 22:20:20.296
+!MESSAGE Indexed 'Hello' (0 sources, 9 headers) in 0.09 sec: 41 declarations; 169 references; 4 unresolved inclusions; 0 syntax errors; 0 unresolved names (0.00%)
+
+!ENTRY org.eclipse.equinox.p2.core 4 0 2011-01-21 22:42:34.703
+!MESSAGE Provisioning exception
+!STACK 1
+org.eclipse.equinox.p2.core.ProvisionException: No repository found at http://download.eclipse.org/dsdp/mtj/updates/1.0.2/stable/.
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.fail(AbstractRepositoryManager.java:391)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:675)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:96)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:92)
+	at org.eclipse.equinox.p2.ui.LoadMetadataRepositoryJob.doLoad(LoadMetadataRepositoryJob.java:115)
+	at org.eclipse.equinox.p2.ui.LoadMetadataRepositoryJob.runModal(LoadMetadataRepositoryJob.java:100)
+	at org.eclipse.equinox.internal.p2.ui.sdk.PreloadingRepositoryHandler$2.runModal(PreloadingRepositoryHandler.java:82)
+	at org.eclipse.equinox.p2.operations.ProvisioningJob.run(ProvisioningJob.java:177)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.equinox.p2.metadata.repository 4 1000 2011-01-21 22:42:34.703
+!MESSAGE No repository found at http://download.eclipse.org/dsdp/mtj/updates/1.0.2/stable/.
+
+!ENTRY org.eclipse.equinox.p2.core 4 0 2011-01-21 22:42:43.078
+!MESSAGE Provisioning exception
+!STACK 1
+org.eclipse.equinox.p2.core.ProvisionException: No repository found at http://dev.eclipse.org/svnroot/dsdp/org.eclipse.tm.tcf/releases/0.3.0.
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.fail(AbstractRepositoryManager.java:391)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:675)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:96)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:92)
+	at org.eclipse.equinox.p2.ui.LoadMetadataRepositoryJob.doLoad(LoadMetadataRepositoryJob.java:115)
+	at org.eclipse.equinox.p2.ui.LoadMetadataRepositoryJob.runModal(LoadMetadataRepositoryJob.java:100)
+	at org.eclipse.equinox.internal.p2.ui.sdk.PreloadingRepositoryHandler$2.runModal(PreloadingRepositoryHandler.java:82)
+	at org.eclipse.equinox.p2.operations.ProvisioningJob.run(ProvisioningJob.java:177)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.equinox.p2.metadata.repository 4 1000 2011-01-21 22:42:43.078
+!MESSAGE No repository found at http://dev.eclipse.org/svnroot/dsdp/org.eclipse.tm.tcf/releases/0.3.0.
+!SESSION 2011-01-21 22:42:51.703 -----------------------------------------------
+eclipse.buildId=M20100909-0800
+java.version=1.6.0_22
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.cpp.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.cpp.product
+
+!ENTRY org.eclipse.equinox.p2.core 4 0 2011-01-21 22:43:29.390
+!MESSAGE Provisioning exception
+!STACK 1
+org.eclipse.equinox.p2.core.ProvisionException: No repository found at http://download.eclipse.org/dsdp/mtj/updates/1.0.2/stable/.
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.fail(AbstractRepositoryManager.java:391)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:675)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:96)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:92)
+	at org.eclipse.equinox.p2.ui.LoadMetadataRepositoryJob.doLoad(LoadMetadataRepositoryJob.java:115)
+	at org.eclipse.equinox.p2.ui.LoadMetadataRepositoryJob.runModal(LoadMetadataRepositoryJob.java:100)
+	at org.eclipse.equinox.internal.p2.ui.sdk.PreloadingRepositoryHandler$2.runModal(PreloadingRepositoryHandler.java:82)
+	at org.eclipse.equinox.p2.operations.ProvisioningJob.run(ProvisioningJob.java:177)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.equinox.p2.metadata.repository 4 1000 2011-01-21 22:43:29.390
+!MESSAGE No repository found at http://download.eclipse.org/dsdp/mtj/updates/1.0.2/stable/.
+
+!ENTRY org.eclipse.equinox.p2.core 4 0 2011-01-21 22:43:36.796
+!MESSAGE Provisioning exception
+!STACK 1
+org.eclipse.equinox.p2.core.ProvisionException: No repository found at http://dev.eclipse.org/svnroot/dsdp/org.eclipse.tm.tcf/releases/0.3.0.
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.fail(AbstractRepositoryManager.java:391)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:675)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:96)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:92)
+	at org.eclipse.equinox.p2.ui.LoadMetadataRepositoryJob.doLoad(LoadMetadataRepositoryJob.java:115)
+	at org.eclipse.equinox.p2.ui.LoadMetadataRepositoryJob.runModal(LoadMetadataRepositoryJob.java:100)
+	at org.eclipse.equinox.internal.p2.ui.sdk.PreloadingRepositoryHandler$2.runModal(PreloadingRepositoryHandler.java:82)
+	at org.eclipse.equinox.p2.operations.ProvisioningJob.run(ProvisioningJob.java:177)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.equinox.p2.metadata.repository 4 1000 2011-01-21 22:43:36.796
+!MESSAGE No repository found at http://dev.eclipse.org/svnroot/dsdp/org.eclipse.tm.tcf/releases/0.3.0.
+
+!ENTRY org.eclipse.equinox.p2.core 4 0 2011-01-21 22:45:00.531
+!MESSAGE Provisioning exception
+!STACK 1
+org.eclipse.equinox.p2.core.ProvisionException: No repository found at http://download.eclipse.org/dsdp/mtj/updates/1.0.2/stable/.
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.fail(AbstractRepositoryManager.java:391)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:635)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:96)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:92)
+	at org.eclipse.equinox.p2.ui.LoadMetadataRepositoryJob.doLoad(LoadMetadataRepositoryJob.java:115)
+	at org.eclipse.equinox.p2.ui.LoadMetadataRepositoryJob.runModal(LoadMetadataRepositoryJob.java:100)
+	at org.eclipse.equinox.internal.p2.ui.sdk.PreloadingRepositoryHandler$2.runModal(PreloadingRepositoryHandler.java:82)
+	at org.eclipse.equinox.p2.operations.ProvisioningJob.run(ProvisioningJob.java:177)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.equinox.p2.metadata.repository 4 1000 2011-01-21 22:45:00.531
+!MESSAGE No repository found at http://download.eclipse.org/dsdp/mtj/updates/1.0.2/stable/.
+
+!ENTRY org.eclipse.equinox.p2.core 4 0 2011-01-21 22:45:00.531
+!MESSAGE Provisioning exception
+!STACK 1
+org.eclipse.equinox.p2.core.ProvisionException: No repository found at http://dev.eclipse.org/svnroot/dsdp/org.eclipse.tm.tcf/releases/0.3.0.
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.fail(AbstractRepositoryManager.java:391)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:635)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:96)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:92)
+	at org.eclipse.equinox.p2.ui.LoadMetadataRepositoryJob.doLoad(LoadMetadataRepositoryJob.java:115)
+	at org.eclipse.equinox.p2.ui.LoadMetadataRepositoryJob.runModal(LoadMetadataRepositoryJob.java:100)
+	at org.eclipse.equinox.internal.p2.ui.sdk.PreloadingRepositoryHandler$2.runModal(PreloadingRepositoryHandler.java:82)
+	at org.eclipse.equinox.p2.operations.ProvisioningJob.run(ProvisioningJob.java:177)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.equinox.p2.metadata.repository 4 1000 2011-01-21 22:45:00.531
+!MESSAGE No repository found at http://dev.eclipse.org/svnroot/dsdp/org.eclipse.tm.tcf/releases/0.3.0.
+!SESSION 2011-01-21 22:45:19.671 -----------------------------------------------
+eclipse.buildId=M20100909-0800
+java.version=1.6.0_22
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.cpp.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.cpp.product
+
+!ENTRY org.eclipse.cdt.core 1 0 2011-01-21 22:45:40.109
+!MESSAGE Indexed 'Hello' (0 sources, 9 headers) in 0.55 sec: 41 declarations; 169 references; 4 unresolved inclusions; 0 syntax errors; 0 unresolved names (0.00%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2011-01-21 22:50:26.890
+!MESSAGE Indexed 'Currency' (0 sources, 9 headers) in 0.08 sec: 41 declarations; 169 references; 4 unresolved inclusions; 0 syntax errors; 0 unresolved names (0.00%)
+!SESSION 2011-01-21 23:53:24.031 -----------------------------------------------
+eclipse.buildId=M20100909-0800
+java.version=1.6.0_22
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.cpp.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.cpp.product
+
+!ENTRY org.eclipse.core.filesystem 4 272 2011-01-21 23:53:42.312
+!MESSAGE Could not move: C:\Documents and Settings\Jeffrey\workspace\C\Currency\Debug\Currency.exe.
+!STACK 1
+org.eclipse.core.runtime.CoreException: File not found: C:\Documents and Settings\Jeffrey\workspace\C\Currency\Debug\Currency.exe.
+	at org.eclipse.core.internal.filesystem.Policy.error(Policy.java:55)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.openInputStream(LocalFile.java:371)
+	at org.eclipse.core.filesystem.provider.FileStore.copyFile(FileStore.java:217)
+	at org.eclipse.core.filesystem.provider.FileStore.copy(FileStore.java:140)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.copy(LocalFile.java:111)
+	at org.eclipse.core.filesystem.provider.FileStore.move(FileStore.java:407)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.move(LocalFile.java:352)
+	at org.eclipse.core.internal.localstore.BlobStore.addBlob(BlobStore.java:55)
+	at org.eclipse.core.internal.localstore.HistoryStore2.addState(HistoryStore2.java:92)
+	at org.eclipse.core.internal.localstore.DeleteVisitor.recursiveKeepHistory(DeleteVisitor.java:118)
+	at org.eclipse.core.internal.localstore.DeleteVisitor.recursiveKeepHistory(DeleteVisitor.java:113)
+	at org.eclipse.core.internal.localstore.DeleteVisitor.delete(DeleteVisitor.java:56)
+	at org.eclipse.core.internal.localstore.DeleteVisitor.visit(DeleteVisitor.java:150)
+	at org.eclipse.core.internal.localstore.UnifiedTree.accept(UnifiedTree.java:108)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.delete(FileSystemResourceManager.java:267)
+	at org.eclipse.core.internal.resources.ResourceTree.internalDeleteFolder(ResourceTree.java:352)
+	at org.eclipse.core.internal.resources.ResourceTree.standardDeleteFolder(ResourceTree.java:798)
+	at org.eclipse.core.internal.resources.Resource.unprotectedDelete(Resource.java:1940)
+	at org.eclipse.core.internal.resources.Resource.delete(Resource.java:786)
+	at org.eclipse.ltk.core.refactoring.resource.DeleteResourceChange.perform(DeleteResourceChange.java:138)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:278)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:278)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation$1.run(PerformChangeOperation.java:258)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:1975)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.executeChange(PerformChangeOperation.java:306)
+	at org.eclipse.ltk.internal.ui.refactoring.UIPerformChangeOperation.executeChange(UIPerformChangeOperation.java:92)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.run(PerformChangeOperation.java:218)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:1975)
+	at org.eclipse.ltk.internal.ui.refactoring.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:87)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:121)
+Caused by: java.io.FileNotFoundException: C:\Documents and Settings\Jeffrey\workspace\C\Currency\Debug\Currency.exe (The system cannot find the file specified)
+	at java.io.FileInputStream.open(Native Method)
+	at java.io.FileInputStream.<init>(Unknown Source)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.openInputStream(LocalFile.java:362)
+	... 28 more
+!SUBENTRY 1 org.eclipse.core.filesystem 4 271 2011-01-21 23:53:42.312
+!MESSAGE File not found: C:\Documents and Settings\Jeffrey\workspace\C\Currency\Debug\Currency.exe.
+!STACK 0
+java.io.FileNotFoundException: C:\Documents and Settings\Jeffrey\workspace\C\Currency\Debug\Currency.exe (The system cannot find the file specified)
+	at java.io.FileInputStream.open(Native Method)
+	at java.io.FileInputStream.<init>(Unknown Source)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.openInputStream(LocalFile.java:362)
+	at org.eclipse.core.filesystem.provider.FileStore.copyFile(FileStore.java:217)
+	at org.eclipse.core.filesystem.provider.FileStore.copy(FileStore.java:140)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.copy(LocalFile.java:111)
+	at org.eclipse.core.filesystem.provider.FileStore.move(FileStore.java:407)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.move(LocalFile.java:352)
+	at org.eclipse.core.internal.localstore.BlobStore.addBlob(BlobStore.java:55)
+	at org.eclipse.core.internal.localstore.HistoryStore2.addState(HistoryStore2.java:92)
+	at org.eclipse.core.internal.localstore.DeleteVisitor.recursiveKeepHistory(DeleteVisitor.java:118)
+	at org.eclipse.core.internal.localstore.DeleteVisitor.recursiveKeepHistory(DeleteVisitor.java:113)
+	at org.eclipse.core.internal.localstore.DeleteVisitor.delete(DeleteVisitor.java:56)
+	at org.eclipse.core.internal.localstore.DeleteVisitor.visit(DeleteVisitor.java:150)
+	at org.eclipse.core.internal.localstore.UnifiedTree.accept(UnifiedTree.java:108)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.delete(FileSystemResourceManager.java:267)
+	at org.eclipse.core.internal.resources.ResourceTree.internalDeleteFolder(ResourceTree.java:352)
+	at org.eclipse.core.internal.resources.ResourceTree.standardDeleteFolder(ResourceTree.java:798)
+	at org.eclipse.core.internal.resources.Resource.unprotectedDelete(Resource.java:1940)
+	at org.eclipse.core.internal.resources.Resource.delete(Resource.java:786)
+	at org.eclipse.ltk.core.refactoring.resource.DeleteResourceChange.perform(DeleteResourceChange.java:138)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:278)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:278)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation$1.run(PerformChangeOperation.java:258)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:1975)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.executeChange(PerformChangeOperation.java:306)
+	at org.eclipse.ltk.internal.ui.refactoring.UIPerformChangeOperation.executeChange(UIPerformChangeOperation.java:92)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.run(PerformChangeOperation.java:218)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:1975)
+	at org.eclipse.ltk.internal.ui.refactoring.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:87)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:121)
+
+!ENTRY org.eclipse.core.filesystem 4 272 2011-01-21 23:53:42.312
+!MESSAGE Could not move: C:\Documents and Settings\Jeffrey\workspace\C\Currency\Debug\CurrencyCalculator.o.
+!STACK 1
+org.eclipse.core.runtime.CoreException: File not found: C:\Documents and Settings\Jeffrey\workspace\C\Currency\Debug\CurrencyCalculator.o.
+	at org.eclipse.core.internal.filesystem.Policy.error(Policy.java:55)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.openInputStream(LocalFile.java:371)
+	at org.eclipse.core.filesystem.provider.FileStore.copyFile(FileStore.java:217)
+	at org.eclipse.core.filesystem.provider.FileStore.copy(FileStore.java:140)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.copy(LocalFile.java:111)
+	at org.eclipse.core.filesystem.provider.FileStore.move(FileStore.java:407)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.move(LocalFile.java:352)
+	at org.eclipse.core.internal.localstore.BlobStore.addBlob(BlobStore.java:55)
+	at org.eclipse.core.internal.localstore.HistoryStore2.addState(HistoryStore2.java:92)
+	at org.eclipse.core.internal.localstore.DeleteVisitor.recursiveKeepHistory(DeleteVisitor.java:118)
+	at org.eclipse.core.internal.localstore.DeleteVisitor.recursiveKeepHistory(DeleteVisitor.java:113)
+	at org.eclipse.core.internal.localstore.DeleteVisitor.delete(DeleteVisitor.java:56)
+	at org.eclipse.core.internal.localstore.DeleteVisitor.visit(DeleteVisitor.java:150)
+	at org.eclipse.core.internal.localstore.UnifiedTree.accept(UnifiedTree.java:108)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.delete(FileSystemResourceManager.java:267)
+	at org.eclipse.core.internal.resources.ResourceTree.internalDeleteFolder(ResourceTree.java:352)
+	at org.eclipse.core.internal.resources.ResourceTree.standardDeleteFolder(ResourceTree.java:798)
+	at org.eclipse.core.internal.resources.Resource.unprotectedDelete(Resource.java:1940)
+	at org.eclipse.core.internal.resources.Resource.delete(Resource.java:786)
+	at org.eclipse.ltk.core.refactoring.resource.DeleteResourceChange.perform(DeleteResourceChange.java:138)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:278)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:278)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation$1.run(PerformChangeOperation.java:258)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:1975)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.executeChange(PerformChangeOperation.java:306)
+	at org.eclipse.ltk.internal.ui.refactoring.UIPerformChangeOperation.executeChange(UIPerformChangeOperation.java:92)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.run(PerformChangeOperation.java:218)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:1975)
+	at org.eclipse.ltk.internal.ui.refactoring.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:87)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:121)
+Caused by: java.io.FileNotFoundException: C:\Documents and Settings\Jeffrey\workspace\C\Currency\Debug\CurrencyCalculator.o (The system cannot find the file specified)
+	at java.io.FileInputStream.open(Native Method)
+	at java.io.FileInputStream.<init>(Unknown Source)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.openInputStream(LocalFile.java:362)
+	... 28 more
+!SUBENTRY 1 org.eclipse.core.filesystem 4 271 2011-01-21 23:53:42.312
+!MESSAGE File not found: C:\Documents and Settings\Jeffrey\workspace\C\Currency\Debug\CurrencyCalculator.o.
+!STACK 0
+java.io.FileNotFoundException: C:\Documents and Settings\Jeffrey\workspace\C\Currency\Debug\CurrencyCalculator.o (The system cannot find the file specified)
+	at java.io.FileInputStream.open(Native Method)
+	at java.io.FileInputStream.<init>(Unknown Source)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.openInputStream(LocalFile.java:362)
+	at org.eclipse.core.filesystem.provider.FileStore.copyFile(FileStore.java:217)
+	at org.eclipse.core.filesystem.provider.FileStore.copy(FileStore.java:140)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.copy(LocalFile.java:111)
+	at org.eclipse.core.filesystem.provider.FileStore.move(FileStore.java:407)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.move(LocalFile.java:352)
+	at org.eclipse.core.internal.localstore.BlobStore.addBlob(BlobStore.java:55)
+	at org.eclipse.core.internal.localstore.HistoryStore2.addState(HistoryStore2.java:92)
+	at org.eclipse.core.internal.localstore.DeleteVisitor.recursiveKeepHistory(DeleteVisitor.java:118)
+	at org.eclipse.core.internal.localstore.DeleteVisitor.recursiveKeepHistory(DeleteVisitor.java:113)
+	at org.eclipse.core.internal.localstore.DeleteVisitor.delete(DeleteVisitor.java:56)
+	at org.eclipse.core.internal.localstore.DeleteVisitor.visit(DeleteVisitor.java:150)
+	at org.eclipse.core.internal.localstore.UnifiedTree.accept(UnifiedTree.java:108)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.delete(FileSystemResourceManager.java:267)
+	at org.eclipse.core.internal.resources.ResourceTree.internalDeleteFolder(ResourceTree.java:352)
+	at org.eclipse.core.internal.resources.ResourceTree.standardDeleteFolder(ResourceTree.java:798)
+	at org.eclipse.core.internal.resources.Resource.unprotectedDelete(Resource.java:1940)
+	at org.eclipse.core.internal.resources.Resource.delete(Resource.java:786)
+	at org.eclipse.ltk.core.refactoring.resource.DeleteResourceChange.perform(DeleteResourceChange.java:138)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:278)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:278)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation$1.run(PerformChangeOperation.java:258)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:1975)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.executeChange(PerformChangeOperation.java:306)
+	at org.eclipse.ltk.internal.ui.refactoring.UIPerformChangeOperation.executeChange(UIPerformChangeOperation.java:92)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.run(PerformChangeOperation.java:218)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:1975)
+	at org.eclipse.ltk.internal.ui.refactoring.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:87)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:121)
+
+!ENTRY org.eclipse.cdt.core 1 0 2011-01-22 01:42:44.171
+!MESSAGE Indexed 'Hello' (0 sources, 9 headers) in 0.08 sec: 41 declarations; 169 references; 4 unresolved inclusions; 0 syntax errors; 0 unresolved names (0.00%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2011-01-22 01:50:32.000
+!MESSAGE Indexed 'Hello' (0 sources, 9 headers) in 0.05 sec: 41 declarations; 169 references; 4 unresolved inclusions; 0 syntax errors; 0 unresolved names (0.00%)

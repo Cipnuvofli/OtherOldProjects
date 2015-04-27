@@ -1,0 +1,2401 @@
+!SESSION 2009-11-14 16:01:00.625 -----------------------------------------------
+eclipse.buildId=M20090917-0800
+java.version=1.6.0_17
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.ui.intro 4 0 2009-11-14 16:01:16.906
+!MESSAGE Unable to set HTML on the browser
+!SESSION 2010-03-02 18:38:39.500 -----------------------------------------------
+eclipse.buildId=M20090917-0800
+java.version=1.6.0_17
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2010-03-02 21:32:51.281
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Core Exception [code 368] Resource '/Battleship/src/shipendrightinv.png' does not exist.
+	at org.eclipse.jdt.internal.core.BatchOperation.executeOperation(BatchOperation.java:50)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:728)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:1800)
+	at org.eclipse.jdt.core.JavaCore.run(JavaCore.java:4694)
+	at org.eclipse.jdt.internal.corext.refactoring.changes.DynamicValidationStateChange.perform(DynamicValidationStateChange.java:101)
+	at org.eclipse.jdt.internal.corext.refactoring.reorg.JavaMoveProcessor$1.perform(JavaMoveProcessor.java:132)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:278)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation$1.run(PerformChangeOperation.java:260)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:1800)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.executeChange(PerformChangeOperation.java:308)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.run(PerformChangeOperation.java:225)
+	at org.eclipse.jdt.internal.ui.refactoring.RefactoringExecutionHelper$Operation.run(RefactoringExecutionHelper.java:106)
+	at org.eclipse.jdt.internal.core.BatchOperation.executeOperation(BatchOperation.java:39)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:728)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:1800)
+	at org.eclipse.jdt.core.JavaCore.run(JavaCore.java:4694)
+	at org.eclipse.jdt.internal.ui.actions.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:106)
+	at org.eclipse.jface.operation.ModalContext.runInCurrentThread(ModalContext.java:464)
+	at org.eclipse.jface.operation.ModalContext.run(ModalContext.java:372)
+	at org.eclipse.jface.window.ApplicationWindow$1.run(ApplicationWindow.java:759)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:70)
+	at org.eclipse.jface.window.ApplicationWindow.run(ApplicationWindow.java:756)
+	at org.eclipse.ui.internal.WorkbenchWindow.run(WorkbenchWindow.java:2579)
+	at org.eclipse.jdt.internal.ui.refactoring.RefactoringExecutionHelper.perform(RefactoringExecutionHelper.java:191)
+	at org.eclipse.jdt.internal.ui.refactoring.RefactoringExecutionHelper.perform(RefactoringExecutionHelper.java:151)
+	at org.eclipse.jdt.internal.ui.refactoring.reorg.ReorgMoveStarter.run(ReorgMoveStarter.java:70)
+	at org.eclipse.jdt.internal.ui.packageview.SelectionTransferDropAdapter.handleDropMove(SelectionTransferDropAdapter.java:278)
+	at org.eclipse.jdt.internal.ui.packageview.SelectionTransferDropAdapter.performDrop(SelectionTransferDropAdapter.java:215)
+	at org.eclipse.jdt.internal.ui.dnd.JdtViewerDropAdapter.drop(JdtViewerDropAdapter.java:242)
+	at org.eclipse.jface.util.DelegatingDropAdapter$3.run(DelegatingDropAdapter.java:211)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.runtime.Platform.run(Platform.java:888)
+	at org.eclipse.ui.internal.JFaceUtil$1.run(JFaceUtil.java:48)
+	at org.eclipse.jface.util.SafeRunnable.run(SafeRunnable.java:175)
+	at org.eclipse.jface.util.DelegatingDropAdapter.drop(DelegatingDropAdapter.java:209)
+	at org.eclipse.swt.dnd.DNDListener.handleEvent(DNDListener.java:90)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1003)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1027)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1012)
+	at org.eclipse.swt.widgets.Widget.notifyListeners(Widget.java:770)
+	at org.eclipse.swt.dnd.DropTarget.Drop(DropTarget.java:456)
+	at org.eclipse.swt.dnd.DropTarget$3.method6(DropTarget.java:258)
+	at org.eclipse.swt.internal.ole.win32.COMObject.callback6(COMObject.java:119)
+	at org.eclipse.swt.internal.ole.win32.COM.DoDragDrop(Native Method)
+	at org.eclipse.swt.dnd.DragSource.drag(DragSource.java:363)
+	at org.eclipse.swt.dnd.DragSource.access$0(DragSource.java:289)
+	at org.eclipse.swt.dnd.DragSource$1.handleEvent(DragSource.java:172)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1003)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:3880)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3473)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2405)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2369)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2221)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:500)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:493)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:113)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:194)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:368)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:559)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:514)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1311)
+Caused by: org.eclipse.core.internal.resources.ResourceException: Resource '/Battleship/src/shipendrightinv.png' does not exist.
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:319)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:196)
+	at org.eclipse.core.internal.resources.Resource.checkAccessibleAndLocal(Resource.java:202)
+	at org.eclipse.core.internal.resources.Resource.checkMoveRequirements(Resource.java:364)
+	at org.eclipse.core.internal.resources.Resource.assertMoveRequirements(Resource.java:187)
+	at org.eclipse.core.internal.resources.Resource.move(Resource.java:1452)
+	at org.eclipse.ltk.core.refactoring.resource.MoveResourceChange.perform(MoveResourceChange.java:119)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:278)
+	at org.eclipse.jdt.internal.corext.refactoring.changes.DynamicValidationStateChange.access$0(DynamicValidationStateChange.java:1)
+	at org.eclipse.jdt.internal.corext.refactoring.changes.DynamicValidationStateChange$1.run(DynamicValidationStateChange.java:98)
+	at org.eclipse.jdt.internal.core.BatchOperation.executeOperation(BatchOperation.java:39)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:728)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:1800)
+	at org.eclipse.jdt.core.JavaCore.run(JavaCore.java:4694)
+	at org.eclipse.jdt.internal.corext.refactoring.changes.DynamicValidationStateChange.perform(DynamicValidationStateChange.java:101)
+	at org.eclipse.jdt.internal.corext.refactoring.reorg.JavaMoveProcessor$1.perform(JavaMoveProcessor.java:132)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:278)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation$1.run(PerformChangeOperation.java:260)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:1800)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.executeChange(PerformChangeOperation.java:308)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.run(PerformChangeOperation.java:225)
+	at org.eclipse.jdt.internal.ui.refactoring.RefactoringExecutionHelper$Operation.run(RefactoringExecutionHelper.java:106)
+	at org.eclipse.jdt.internal.core.BatchOperation.executeOperation(BatchOperation.java:39)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:728)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:1800)
+	at org.eclipse.jdt.core.JavaCore.run(JavaCore.java:4694)
+	at org.eclipse.jdt.internal.ui.actions.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:106)
+	at org.eclipse.jface.operation.ModalContext.runInCurrentThread(ModalContext.java:464)
+	at org.eclipse.jface.operation.ModalContext.run(ModalContext.java:372)
+	at org.eclipse.jface.window.ApplicationWindow$1.run(ApplicationWindow.java:759)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:70)
+	at org.eclipse.jface.window.ApplicationWindow.run(ApplicationWindow.java:756)
+	at org.eclipse.ui.internal.WorkbenchWindow.run(WorkbenchWindow.java:2579)
+	at org.eclipse.jdt.internal.ui.refactoring.RefactoringExecutionHelper.perform(RefactoringExecutionHelper.java:191)
+	at org.eclipse.jdt.internal.ui.refactoring.RefactoringExecutionHelper.perform(RefactoringExecutionHelper.java:151)
+	at org.eclipse.jdt.internal.ui.refactoring.reorg.ReorgMoveStarter.run(ReorgMoveStarter.java:70)
+	at org.eclipse.jdt.internal.ui.packageview.SelectionTransferDropAdapter.handleDropMove(SelectionTransferDropAdapter.java:278)
+	at org.eclipse.jdt.internal.ui.packageview.SelectionTransferDropAdapter.performDrop(SelectionTransferDropAdapter.java:215)
+	at org.eclipse.jdt.internal.ui.dnd.JdtViewerDropAdapter.drop(JdtViewerDropAdapter.java:242)
+	at org.eclipse.jface.util.DelegatingDropAdapter$3.run(DelegatingDropAdapter.java:211)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.runtime.Platform.run(Platform.java:888)
+	at org.eclipse.ui.internal.JFaceUtil$1.run(JFaceUtil.java:48)
+	at org.eclipse.jface.util.SafeRunnable.run(SafeRunnable.java:175)
+	at org.eclipse.jface.util.DelegatingDropAdapter.drop(DelegatingDropAdapter.java:209)
+	at org.eclipse.swt.dnd.DNDListener.handleEvent(DNDListener.java:90)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1003)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1027)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1012)
+	at org.eclipse.swt.widgets.Widget.notifyListeners(Widget.java:770)
+	at org.eclipse.swt.dnd.DropTarget.Drop(DropTarget.java:456)
+	at org.eclipse.swt.dnd.DropTarget$3.method6(DropTarget.java:258)
+	at org.eclipse.swt.internal.ole.win32.COMObject.callback6(COMObject.java:119)
+	at org.eclipse.swt.internal.ole.win32.COM.DoDragDrop(Native Method)
+	at org.eclipse.swt.dnd.DragSource.drag(DragSource.java:363)
+	at org.eclipse.swt.dnd.DragSource.access$0(DragSource.java:289)
+	at org.eclipse.swt.dnd.DragSource$1.handleEvent(DragSource.java:172)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1003)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:3880)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3473)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2405)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2369)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2221)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:500)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:493)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:113)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:194)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:368)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:559)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:514)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1311)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2010-03-02 21:32:51.281
+!MESSAGE Resource '/Battleship/src/shipendrightinv.png' does not exist.
+
+!ENTRY org.eclipse.core.resources 4 368 2010-03-02 21:32:51.312
+!MESSAGE Resource '/Battleship/src/shipendrightinv.png' does not exist.
+
+!ENTRY org.eclipse.jdt.core 4 4 2010-03-02 21:33:32.109
+!MESSAGE Invalid ZIP archive: src/genericbattleshiptile.png [in Battleship]
+!STACK 1
+org.eclipse.core.runtime.CoreException: I/O exception
+	at org.eclipse.jdt.internal.core.JavaModelManager.getZipFile(JavaModelManager.java:2425)
+	at org.eclipse.jdt.internal.core.JarPackageFragmentRoot.getJar(JarPackageFragmentRoot.java:152)
+	at org.eclipse.jdt.internal.core.JarPackageFragmentRoot.computeChildren(JarPackageFragmentRoot.java:78)
+	at org.eclipse.jdt.internal.core.JavaProjectElementInfo.initializePackageNames(JavaProjectElementInfo.java:252)
+	at org.eclipse.jdt.internal.core.JavaProjectElementInfo.getProjectCache(JavaProjectElementInfo.java:225)
+	at org.eclipse.jdt.internal.core.JavaProjectElementInfo.newNameLookup(JavaProjectElementInfo.java:290)
+	at org.eclipse.jdt.internal.core.JavaProject.newNameLookup(JavaProject.java:2258)
+	at org.eclipse.jdt.internal.core.SearchableEnvironment.<init>(SearchableEnvironment.java:57)
+	at org.eclipse.jdt.internal.core.SearchableEnvironment.<init>(SearchableEnvironment.java:64)
+	at org.eclipse.jdt.internal.core.CancelableNameEnvironment.<init>(CancelableNameEnvironment.java:26)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:506)
+	at org.eclipse.jdt.core.dom.ASTParser.internalCreateAST(ASTParser.java:908)
+	at org.eclipse.jdt.core.dom.ASTParser.createAST(ASTParser.java:657)
+	at org.eclipse.jdt.internal.ui.javaeditor.ASTProvider$1.run(ASTProvider.java:544)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.jdt.internal.ui.javaeditor.ASTProvider.createAST(ASTProvider.java:537)
+	at org.eclipse.jdt.internal.ui.javaeditor.ASTProvider.getAST(ASTProvider.java:478)
+	at org.eclipse.jdt.ui.SharedASTProvider.getAST(SharedASTProvider.java:126)
+	at org.eclipse.jdt.ui.OverrideIndicatorLabelDecorator.getOverrideIndicators(OverrideIndicatorLabelDecorator.java:161)
+	at org.eclipse.jdt.ui.OverrideIndicatorLabelDecorator.computeAdornmentFlags(OverrideIndicatorLabelDecorator.java:136)
+	at org.eclipse.jdt.ui.OverrideIndicatorLabelDecorator.decorate(OverrideIndicatorLabelDecorator.java:272)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorDefinition.decorate(LightweightDecoratorDefinition.java:269)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager$LightweightRunnable.run(LightweightDecoratorManager.java:81)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.decorate(LightweightDecoratorManager.java:365)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.getDecorations(LightweightDecoratorManager.java:347)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.ensureResultCached(DecorationScheduler.java:371)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:331)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: java.util.zip.ZipException: error in opening zip file
+	at java.util.zip.ZipFile.open(Native Method)
+	at java.util.zip.ZipFile.<init>(Unknown Source)
+	at java.util.zip.ZipFile.<init>(Unknown Source)
+	at org.eclipse.jdt.internal.core.JavaModelManager.getZipFile(JavaModelManager.java:2419)
+	... 28 more
+!SUBENTRY 1 org.eclipse.jdt.core 4 -1 2010-03-02 21:33:32.109
+!MESSAGE I/O exception
+!STACK 0
+java.util.zip.ZipException: error in opening zip file
+	at java.util.zip.ZipFile.open(Native Method)
+	at java.util.zip.ZipFile.<init>(Unknown Source)
+	at java.util.zip.ZipFile.<init>(Unknown Source)
+	at org.eclipse.jdt.internal.core.JavaModelManager.getZipFile(JavaModelManager.java:2419)
+	at org.eclipse.jdt.internal.core.JarPackageFragmentRoot.getJar(JarPackageFragmentRoot.java:152)
+	at org.eclipse.jdt.internal.core.JarPackageFragmentRoot.computeChildren(JarPackageFragmentRoot.java:78)
+	at org.eclipse.jdt.internal.core.JavaProjectElementInfo.initializePackageNames(JavaProjectElementInfo.java:252)
+	at org.eclipse.jdt.internal.core.JavaProjectElementInfo.getProjectCache(JavaProjectElementInfo.java:225)
+	at org.eclipse.jdt.internal.core.JavaProjectElementInfo.newNameLookup(JavaProjectElementInfo.java:290)
+	at org.eclipse.jdt.internal.core.JavaProject.newNameLookup(JavaProject.java:2258)
+	at org.eclipse.jdt.internal.core.SearchableEnvironment.<init>(SearchableEnvironment.java:57)
+	at org.eclipse.jdt.internal.core.SearchableEnvironment.<init>(SearchableEnvironment.java:64)
+	at org.eclipse.jdt.internal.core.CancelableNameEnvironment.<init>(CancelableNameEnvironment.java:26)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:506)
+	at org.eclipse.jdt.core.dom.ASTParser.internalCreateAST(ASTParser.java:908)
+	at org.eclipse.jdt.core.dom.ASTParser.createAST(ASTParser.java:657)
+	at org.eclipse.jdt.internal.ui.javaeditor.ASTProvider$1.run(ASTProvider.java:544)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.jdt.internal.ui.javaeditor.ASTProvider.createAST(ASTProvider.java:537)
+	at org.eclipse.jdt.internal.ui.javaeditor.ASTProvider.getAST(ASTProvider.java:478)
+	at org.eclipse.jdt.ui.SharedASTProvider.getAST(SharedASTProvider.java:126)
+	at org.eclipse.jdt.ui.OverrideIndicatorLabelDecorator.getOverrideIndicators(OverrideIndicatorLabelDecorator.java:161)
+	at org.eclipse.jdt.ui.OverrideIndicatorLabelDecorator.computeAdornmentFlags(OverrideIndicatorLabelDecorator.java:136)
+	at org.eclipse.jdt.ui.OverrideIndicatorLabelDecorator.decorate(OverrideIndicatorLabelDecorator.java:272)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorDefinition.decorate(LightweightDecoratorDefinition.java:269)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager$LightweightRunnable.run(LightweightDecoratorManager.java:81)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.decorate(LightweightDecoratorManager.java:365)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.getDecorations(LightweightDecoratorManager.java:347)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.ensureResultCached(DecorationScheduler.java:371)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:331)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.jdt.core 4 4 2010-03-02 21:33:32.109
+!MESSAGE Invalid ZIP archive: src/genericbattleshiptiledown.png [in Battleship]
+!STACK 1
+org.eclipse.core.runtime.CoreException: I/O exception
+	at org.eclipse.jdt.internal.core.JavaModelManager.getZipFile(JavaModelManager.java:2425)
+	at org.eclipse.jdt.internal.core.JarPackageFragmentRoot.getJar(JarPackageFragmentRoot.java:152)
+	at org.eclipse.jdt.internal.core.JarPackageFragmentRoot.computeChildren(JarPackageFragmentRoot.java:78)
+	at org.eclipse.jdt.internal.core.JavaProjectElementInfo.initializePackageNames(JavaProjectElementInfo.java:252)
+	at org.eclipse.jdt.internal.core.JavaProjectElementInfo.getProjectCache(JavaProjectElementInfo.java:225)
+	at org.eclipse.jdt.internal.core.JavaProjectElementInfo.newNameLookup(JavaProjectElementInfo.java:290)
+	at org.eclipse.jdt.internal.core.JavaProject.newNameLookup(JavaProject.java:2258)
+	at org.eclipse.jdt.internal.core.SearchableEnvironment.<init>(SearchableEnvironment.java:57)
+	at org.eclipse.jdt.internal.core.SearchableEnvironment.<init>(SearchableEnvironment.java:64)
+	at org.eclipse.jdt.internal.core.CancelableNameEnvironment.<init>(CancelableNameEnvironment.java:26)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:506)
+	at org.eclipse.jdt.core.dom.ASTParser.internalCreateAST(ASTParser.java:908)
+	at org.eclipse.jdt.core.dom.ASTParser.createAST(ASTParser.java:657)
+	at org.eclipse.jdt.internal.ui.javaeditor.ASTProvider$1.run(ASTProvider.java:544)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.jdt.internal.ui.javaeditor.ASTProvider.createAST(ASTProvider.java:537)
+	at org.eclipse.jdt.internal.ui.javaeditor.ASTProvider.getAST(ASTProvider.java:478)
+	at org.eclipse.jdt.ui.SharedASTProvider.getAST(SharedASTProvider.java:126)
+	at org.eclipse.jdt.ui.OverrideIndicatorLabelDecorator.getOverrideIndicators(OverrideIndicatorLabelDecorator.java:161)
+	at org.eclipse.jdt.ui.OverrideIndicatorLabelDecorator.computeAdornmentFlags(OverrideIndicatorLabelDecorator.java:136)
+	at org.eclipse.jdt.ui.OverrideIndicatorLabelDecorator.decorate(OverrideIndicatorLabelDecorator.java:272)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorDefinition.decorate(LightweightDecoratorDefinition.java:269)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager$LightweightRunnable.run(LightweightDecoratorManager.java:81)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.decorate(LightweightDecoratorManager.java:365)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.getDecorations(LightweightDecoratorManager.java:347)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.ensureResultCached(DecorationScheduler.java:371)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:331)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: java.util.zip.ZipException: error in opening zip file
+	at java.util.zip.ZipFile.open(Native Method)
+	at java.util.zip.ZipFile.<init>(Unknown Source)
+	at java.util.zip.ZipFile.<init>(Unknown Source)
+	at org.eclipse.jdt.internal.core.JavaModelManager.getZipFile(JavaModelManager.java:2419)
+	... 28 more
+!SUBENTRY 1 org.eclipse.jdt.core 4 -1 2010-03-02 21:33:32.109
+!MESSAGE I/O exception
+!STACK 0
+java.util.zip.ZipException: error in opening zip file
+	at java.util.zip.ZipFile.open(Native Method)
+	at java.util.zip.ZipFile.<init>(Unknown Source)
+	at java.util.zip.ZipFile.<init>(Unknown Source)
+	at org.eclipse.jdt.internal.core.JavaModelManager.getZipFile(JavaModelManager.java:2419)
+	at org.eclipse.jdt.internal.core.JarPackageFragmentRoot.getJar(JarPackageFragmentRoot.java:152)
+	at org.eclipse.jdt.internal.core.JarPackageFragmentRoot.computeChildren(JarPackageFragmentRoot.java:78)
+	at org.eclipse.jdt.internal.core.JavaProjectElementInfo.initializePackageNames(JavaProjectElementInfo.java:252)
+	at org.eclipse.jdt.internal.core.JavaProjectElementInfo.getProjectCache(JavaProjectElementInfo.java:225)
+	at org.eclipse.jdt.internal.core.JavaProjectElementInfo.newNameLookup(JavaProjectElementInfo.java:290)
+	at org.eclipse.jdt.internal.core.JavaProject.newNameLookup(JavaProject.java:2258)
+	at org.eclipse.jdt.internal.core.SearchableEnvironment.<init>(SearchableEnvironment.java:57)
+	at org.eclipse.jdt.internal.core.SearchableEnvironment.<init>(SearchableEnvironment.java:64)
+	at org.eclipse.jdt.internal.core.CancelableNameEnvironment.<init>(CancelableNameEnvironment.java:26)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:506)
+	at org.eclipse.jdt.core.dom.ASTParser.internalCreateAST(ASTParser.java:908)
+	at org.eclipse.jdt.core.dom.ASTParser.createAST(ASTParser.java:657)
+	at org.eclipse.jdt.internal.ui.javaeditor.ASTProvider$1.run(ASTProvider.java:544)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.jdt.internal.ui.javaeditor.ASTProvider.createAST(ASTProvider.java:537)
+	at org.eclipse.jdt.internal.ui.javaeditor.ASTProvider.getAST(ASTProvider.java:478)
+	at org.eclipse.jdt.ui.SharedASTProvider.getAST(SharedASTProvider.java:126)
+	at org.eclipse.jdt.ui.OverrideIndicatorLabelDecorator.getOverrideIndicators(OverrideIndicatorLabelDecorator.java:161)
+	at org.eclipse.jdt.ui.OverrideIndicatorLabelDecorator.computeAdornmentFlags(OverrideIndicatorLabelDecorator.java:136)
+	at org.eclipse.jdt.ui.OverrideIndicatorLabelDecorator.decorate(OverrideIndicatorLabelDecorator.java:272)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorDefinition.decorate(LightweightDecoratorDefinition.java:269)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager$LightweightRunnable.run(LightweightDecoratorManager.java:81)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.decorate(LightweightDecoratorManager.java:365)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.getDecorations(LightweightDecoratorManager.java:347)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.ensureResultCached(DecorationScheduler.java:371)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:331)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.jdt.core 4 4 2010-03-02 21:33:32.109
+!MESSAGE Invalid ZIP archive: src/shipenddown.png [in Battleship]
+!STACK 1
+org.eclipse.core.runtime.CoreException: I/O exception
+	at org.eclipse.jdt.internal.core.JavaModelManager.getZipFile(JavaModelManager.java:2425)
+	at org.eclipse.jdt.internal.core.JarPackageFragmentRoot.getJar(JarPackageFragmentRoot.java:152)
+	at org.eclipse.jdt.internal.core.JarPackageFragmentRoot.computeChildren(JarPackageFragmentRoot.java:78)
+	at org.eclipse.jdt.internal.core.JavaProjectElementInfo.initializePackageNames(JavaProjectElementInfo.java:252)
+	at org.eclipse.jdt.internal.core.JavaProjectElementInfo.getProjectCache(JavaProjectElementInfo.java:225)
+	at org.eclipse.jdt.internal.core.JavaProjectElementInfo.newNameLookup(JavaProjectElementInfo.java:290)
+	at org.eclipse.jdt.internal.core.JavaProject.newNameLookup(JavaProject.java:2258)
+	at org.eclipse.jdt.internal.core.SearchableEnvironment.<init>(SearchableEnvironment.java:57)
+	at org.eclipse.jdt.internal.core.SearchableEnvironment.<init>(SearchableEnvironment.java:64)
+	at org.eclipse.jdt.internal.core.CancelableNameEnvironment.<init>(CancelableNameEnvironment.java:26)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:506)
+	at org.eclipse.jdt.core.dom.ASTParser.internalCreateAST(ASTParser.java:908)
+	at org.eclipse.jdt.core.dom.ASTParser.createAST(ASTParser.java:657)
+	at org.eclipse.jdt.internal.ui.javaeditor.ASTProvider$1.run(ASTProvider.java:544)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.jdt.internal.ui.javaeditor.ASTProvider.createAST(ASTProvider.java:537)
+	at org.eclipse.jdt.internal.ui.javaeditor.ASTProvider.getAST(ASTProvider.java:478)
+	at org.eclipse.jdt.ui.SharedASTProvider.getAST(SharedASTProvider.java:126)
+	at org.eclipse.jdt.ui.OverrideIndicatorLabelDecorator.getOverrideIndicators(OverrideIndicatorLabelDecorator.java:161)
+	at org.eclipse.jdt.ui.OverrideIndicatorLabelDecorator.computeAdornmentFlags(OverrideIndicatorLabelDecorator.java:136)
+	at org.eclipse.jdt.ui.OverrideIndicatorLabelDecorator.decorate(OverrideIndicatorLabelDecorator.java:272)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorDefinition.decorate(LightweightDecoratorDefinition.java:269)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager$LightweightRunnable.run(LightweightDecoratorManager.java:81)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.decorate(LightweightDecoratorManager.java:365)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.getDecorations(LightweightDecoratorManager.java:347)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.ensureResultCached(DecorationScheduler.java:371)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:331)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: java.util.zip.ZipException: error in opening zip file
+	at java.util.zip.ZipFile.open(Native Method)
+	at java.util.zip.ZipFile.<init>(Unknown Source)
+	at java.util.zip.ZipFile.<init>(Unknown Source)
+	at org.eclipse.jdt.internal.core.JavaModelManager.getZipFile(JavaModelManager.java:2419)
+	... 28 more
+!SUBENTRY 1 org.eclipse.jdt.core 4 -1 2010-03-02 21:33:32.109
+!MESSAGE I/O exception
+!STACK 0
+java.util.zip.ZipException: error in opening zip file
+	at java.util.zip.ZipFile.open(Native Method)
+	at java.util.zip.ZipFile.<init>(Unknown Source)
+	at java.util.zip.ZipFile.<init>(Unknown Source)
+	at org.eclipse.jdt.internal.core.JavaModelManager.getZipFile(JavaModelManager.java:2419)
+	at org.eclipse.jdt.internal.core.JarPackageFragmentRoot.getJar(JarPackageFragmentRoot.java:152)
+	at org.eclipse.jdt.internal.core.JarPackageFragmentRoot.computeChildren(JarPackageFragmentRoot.java:78)
+	at org.eclipse.jdt.internal.core.JavaProjectElementInfo.initializePackageNames(JavaProjectElementInfo.java:252)
+	at org.eclipse.jdt.internal.core.JavaProjectElementInfo.getProjectCache(JavaProjectElementInfo.java:225)
+	at org.eclipse.jdt.internal.core.JavaProjectElementInfo.newNameLookup(JavaProjectElementInfo.java:290)
+	at org.eclipse.jdt.internal.core.JavaProject.newNameLookup(JavaProject.java:2258)
+	at org.eclipse.jdt.internal.core.SearchableEnvironment.<init>(SearchableEnvironment.java:57)
+	at org.eclipse.jdt.internal.core.SearchableEnvironment.<init>(SearchableEnvironment.java:64)
+	at org.eclipse.jdt.internal.core.CancelableNameEnvironment.<init>(CancelableNameEnvironment.java:26)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:506)
+	at org.eclipse.jdt.core.dom.ASTParser.internalCreateAST(ASTParser.java:908)
+	at org.eclipse.jdt.core.dom.ASTParser.createAST(ASTParser.java:657)
+	at org.eclipse.jdt.internal.ui.javaeditor.ASTProvider$1.run(ASTProvider.java:544)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.jdt.internal.ui.javaeditor.ASTProvider.createAST(ASTProvider.java:537)
+	at org.eclipse.jdt.internal.ui.javaeditor.ASTProvider.getAST(ASTProvider.java:478)
+	at org.eclipse.jdt.ui.SharedASTProvider.getAST(SharedASTProvider.java:126)
+	at org.eclipse.jdt.ui.OverrideIndicatorLabelDecorator.getOverrideIndicators(OverrideIndicatorLabelDecorator.java:161)
+	at org.eclipse.jdt.ui.OverrideIndicatorLabelDecorator.computeAdornmentFlags(OverrideIndicatorLabelDecorator.java:136)
+	at org.eclipse.jdt.ui.OverrideIndicatorLabelDecorator.decorate(OverrideIndicatorLabelDecorator.java:272)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorDefinition.decorate(LightweightDecoratorDefinition.java:269)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager$LightweightRunnable.run(LightweightDecoratorManager.java:81)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.decorate(LightweightDecoratorManager.java:365)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.getDecorations(LightweightDecoratorManager.java:347)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.ensureResultCached(DecorationScheduler.java:371)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:331)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.jdt.core 4 4 2010-03-02 21:33:32.109
+!MESSAGE Invalid ZIP archive: src/shipenddowninv.png [in Battleship]
+!STACK 1
+org.eclipse.core.runtime.CoreException: I/O exception
+	at org.eclipse.jdt.internal.core.JavaModelManager.getZipFile(JavaModelManager.java:2425)
+	at org.eclipse.jdt.internal.core.JarPackageFragmentRoot.getJar(JarPackageFragmentRoot.java:152)
+	at org.eclipse.jdt.internal.core.JarPackageFragmentRoot.computeChildren(JarPackageFragmentRoot.java:78)
+	at org.eclipse.jdt.internal.core.JavaProjectElementInfo.initializePackageNames(JavaProjectElementInfo.java:252)
+	at org.eclipse.jdt.internal.core.JavaProjectElementInfo.getProjectCache(JavaProjectElementInfo.java:225)
+	at org.eclipse.jdt.internal.core.JavaProjectElementInfo.newNameLookup(JavaProjectElementInfo.java:290)
+	at org.eclipse.jdt.internal.core.JavaProject.newNameLookup(JavaProject.java:2258)
+	at org.eclipse.jdt.internal.core.SearchableEnvironment.<init>(SearchableEnvironment.java:57)
+	at org.eclipse.jdt.internal.core.SearchableEnvironment.<init>(SearchableEnvironment.java:64)
+	at org.eclipse.jdt.internal.core.CancelableNameEnvironment.<init>(CancelableNameEnvironment.java:26)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:506)
+	at org.eclipse.jdt.core.dom.ASTParser.internalCreateAST(ASTParser.java:908)
+	at org.eclipse.jdt.core.dom.ASTParser.createAST(ASTParser.java:657)
+	at org.eclipse.jdt.internal.ui.javaeditor.ASTProvider$1.run(ASTProvider.java:544)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.jdt.internal.ui.javaeditor.ASTProvider.createAST(ASTProvider.java:537)
+	at org.eclipse.jdt.internal.ui.javaeditor.ASTProvider.getAST(ASTProvider.java:478)
+	at org.eclipse.jdt.ui.SharedASTProvider.getAST(SharedASTProvider.java:126)
+	at org.eclipse.jdt.ui.OverrideIndicatorLabelDecorator.getOverrideIndicators(OverrideIndicatorLabelDecorator.java:161)
+	at org.eclipse.jdt.ui.OverrideIndicatorLabelDecorator.computeAdornmentFlags(OverrideIndicatorLabelDecorator.java:136)
+	at org.eclipse.jdt.ui.OverrideIndicatorLabelDecorator.decorate(OverrideIndicatorLabelDecorator.java:272)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorDefinition.decorate(LightweightDecoratorDefinition.java:269)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager$LightweightRunnable.run(LightweightDecoratorManager.java:81)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.decorate(LightweightDecoratorManager.java:365)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.getDecorations(LightweightDecoratorManager.java:347)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.ensureResultCached(DecorationScheduler.java:371)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:331)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: java.util.zip.ZipException: error in opening zip file
+	at java.util.zip.ZipFile.open(Native Method)
+	at java.util.zip.ZipFile.<init>(Unknown Source)
+	at java.util.zip.ZipFile.<init>(Unknown Source)
+	at org.eclipse.jdt.internal.core.JavaModelManager.getZipFile(JavaModelManager.java:2419)
+	... 28 more
+!SUBENTRY 1 org.eclipse.jdt.core 4 -1 2010-03-02 21:33:32.109
+!MESSAGE I/O exception
+!STACK 0
+java.util.zip.ZipException: error in opening zip file
+	at java.util.zip.ZipFile.open(Native Method)
+	at java.util.zip.ZipFile.<init>(Unknown Source)
+	at java.util.zip.ZipFile.<init>(Unknown Source)
+	at org.eclipse.jdt.internal.core.JavaModelManager.getZipFile(JavaModelManager.java:2419)
+	at org.eclipse.jdt.internal.core.JarPackageFragmentRoot.getJar(JarPackageFragmentRoot.java:152)
+	at org.eclipse.jdt.internal.core.JarPackageFragmentRoot.computeChildren(JarPackageFragmentRoot.java:78)
+	at org.eclipse.jdt.internal.core.JavaProjectElementInfo.initializePackageNames(JavaProjectElementInfo.java:252)
+	at org.eclipse.jdt.internal.core.JavaProjectElementInfo.getProjectCache(JavaProjectElementInfo.java:225)
+	at org.eclipse.jdt.internal.core.JavaProjectElementInfo.newNameLookup(JavaProjectElementInfo.java:290)
+	at org.eclipse.jdt.internal.core.JavaProject.newNameLookup(JavaProject.java:2258)
+	at org.eclipse.jdt.internal.core.SearchableEnvironment.<init>(SearchableEnvironment.java:57)
+	at org.eclipse.jdt.internal.core.SearchableEnvironment.<init>(SearchableEnvironment.java:64)
+	at org.eclipse.jdt.internal.core.CancelableNameEnvironment.<init>(CancelableNameEnvironment.java:26)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:506)
+	at org.eclipse.jdt.core.dom.ASTParser.internalCreateAST(ASTParser.java:908)
+	at org.eclipse.jdt.core.dom.ASTParser.createAST(ASTParser.java:657)
+	at org.eclipse.jdt.internal.ui.javaeditor.ASTProvider$1.run(ASTProvider.java:544)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.jdt.internal.ui.javaeditor.ASTProvider.createAST(ASTProvider.java:537)
+	at org.eclipse.jdt.internal.ui.javaeditor.ASTProvider.getAST(ASTProvider.java:478)
+	at org.eclipse.jdt.ui.SharedASTProvider.getAST(SharedASTProvider.java:126)
+	at org.eclipse.jdt.ui.OverrideIndicatorLabelDecorator.getOverrideIndicators(OverrideIndicatorLabelDecorator.java:161)
+	at org.eclipse.jdt.ui.OverrideIndicatorLabelDecorator.computeAdornmentFlags(OverrideIndicatorLabelDecorator.java:136)
+	at org.eclipse.jdt.ui.OverrideIndicatorLabelDecorator.decorate(OverrideIndicatorLabelDecorator.java:272)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorDefinition.decorate(LightweightDecoratorDefinition.java:269)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager$LightweightRunnable.run(LightweightDecoratorManager.java:81)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.decorate(LightweightDecoratorManager.java:365)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.getDecorations(LightweightDecoratorManager.java:347)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.ensureResultCached(DecorationScheduler.java:371)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:331)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.jdt.core 4 4 2010-03-02 21:33:32.109
+!MESSAGE Invalid ZIP archive: src/shipendleft.png [in Battleship]
+!STACK 1
+org.eclipse.core.runtime.CoreException: I/O exception
+	at org.eclipse.jdt.internal.core.JavaModelManager.getZipFile(JavaModelManager.java:2425)
+	at org.eclipse.jdt.internal.core.JarPackageFragmentRoot.getJar(JarPackageFragmentRoot.java:152)
+	at org.eclipse.jdt.internal.core.JarPackageFragmentRoot.computeChildren(JarPackageFragmentRoot.java:78)
+	at org.eclipse.jdt.internal.core.JavaProjectElementInfo.initializePackageNames(JavaProjectElementInfo.java:252)
+	at org.eclipse.jdt.internal.core.JavaProjectElementInfo.getProjectCache(JavaProjectElementInfo.java:225)
+	at org.eclipse.jdt.internal.core.JavaProjectElementInfo.newNameLookup(JavaProjectElementInfo.java:290)
+	at org.eclipse.jdt.internal.core.JavaProject.newNameLookup(JavaProject.java:2258)
+	at org.eclipse.jdt.internal.core.SearchableEnvironment.<init>(SearchableEnvironment.java:57)
+	at org.eclipse.jdt.internal.core.SearchableEnvironment.<init>(SearchableEnvironment.java:64)
+	at org.eclipse.jdt.internal.core.CancelableNameEnvironment.<init>(CancelableNameEnvironment.java:26)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:506)
+	at org.eclipse.jdt.core.dom.ASTParser.internalCreateAST(ASTParser.java:908)
+	at org.eclipse.jdt.core.dom.ASTParser.createAST(ASTParser.java:657)
+	at org.eclipse.jdt.internal.ui.javaeditor.ASTProvider$1.run(ASTProvider.java:544)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.jdt.internal.ui.javaeditor.ASTProvider.createAST(ASTProvider.java:537)
+	at org.eclipse.jdt.internal.ui.javaeditor.ASTProvider.getAST(ASTProvider.java:478)
+	at org.eclipse.jdt.ui.SharedASTProvider.getAST(SharedASTProvider.java:126)
+	at org.eclipse.jdt.ui.OverrideIndicatorLabelDecorator.getOverrideIndicators(OverrideIndicatorLabelDecorator.java:161)
+	at org.eclipse.jdt.ui.OverrideIndicatorLabelDecorator.computeAdornmentFlags(OverrideIndicatorLabelDecorator.java:136)
+	at org.eclipse.jdt.ui.OverrideIndicatorLabelDecorator.decorate(OverrideIndicatorLabelDecorator.java:272)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorDefinition.decorate(LightweightDecoratorDefinition.java:269)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager$LightweightRunnable.run(LightweightDecoratorManager.java:81)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.decorate(LightweightDecoratorManager.java:365)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.getDecorations(LightweightDecoratorManager.java:347)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.ensureResultCached(DecorationScheduler.java:371)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:331)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: java.util.zip.ZipException: error in opening zip file
+	at java.util.zip.ZipFile.open(Native Method)
+	at java.util.zip.ZipFile.<init>(Unknown Source)
+	at java.util.zip.ZipFile.<init>(Unknown Source)
+	at org.eclipse.jdt.internal.core.JavaModelManager.getZipFile(JavaModelManager.java:2419)
+	... 28 more
+!SUBENTRY 1 org.eclipse.jdt.core 4 -1 2010-03-02 21:33:32.109
+!MESSAGE I/O exception
+!STACK 0
+java.util.zip.ZipException: error in opening zip file
+	at java.util.zip.ZipFile.open(Native Method)
+	at java.util.zip.ZipFile.<init>(Unknown Source)
+	at java.util.zip.ZipFile.<init>(Unknown Source)
+	at org.eclipse.jdt.internal.core.JavaModelManager.getZipFile(JavaModelManager.java:2419)
+	at org.eclipse.jdt.internal.core.JarPackageFragmentRoot.getJar(JarPackageFragmentRoot.java:152)
+	at org.eclipse.jdt.internal.core.JarPackageFragmentRoot.computeChildren(JarPackageFragmentRoot.java:78)
+	at org.eclipse.jdt.internal.core.JavaProjectElementInfo.initializePackageNames(JavaProjectElementInfo.java:252)
+	at org.eclipse.jdt.internal.core.JavaProjectElementInfo.getProjectCache(JavaProjectElementInfo.java:225)
+	at org.eclipse.jdt.internal.core.JavaProjectElementInfo.newNameLookup(JavaProjectElementInfo.java:290)
+	at org.eclipse.jdt.internal.core.JavaProject.newNameLookup(JavaProject.java:2258)
+	at org.eclipse.jdt.internal.core.SearchableEnvironment.<init>(SearchableEnvironment.java:57)
+	at org.eclipse.jdt.internal.core.SearchableEnvironment.<init>(SearchableEnvironment.java:64)
+	at org.eclipse.jdt.internal.core.CancelableNameEnvironment.<init>(CancelableNameEnvironment.java:26)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:506)
+	at org.eclipse.jdt.core.dom.ASTParser.internalCreateAST(ASTParser.java:908)
+	at org.eclipse.jdt.core.dom.ASTParser.createAST(ASTParser.java:657)
+	at org.eclipse.jdt.internal.ui.javaeditor.ASTProvider$1.run(ASTProvider.java:544)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.jdt.internal.ui.javaeditor.ASTProvider.createAST(ASTProvider.java:537)
+	at org.eclipse.jdt.internal.ui.javaeditor.ASTProvider.getAST(ASTProvider.java:478)
+	at org.eclipse.jdt.ui.SharedASTProvider.getAST(SharedASTProvider.java:126)
+	at org.eclipse.jdt.ui.OverrideIndicatorLabelDecorator.getOverrideIndicators(OverrideIndicatorLabelDecorator.java:161)
+	at org.eclipse.jdt.ui.OverrideIndicatorLabelDecorator.computeAdornmentFlags(OverrideIndicatorLabelDecorator.java:136)
+	at org.eclipse.jdt.ui.OverrideIndicatorLabelDecorator.decorate(OverrideIndicatorLabelDecorator.java:272)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorDefinition.decorate(LightweightDecoratorDefinition.java:269)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager$LightweightRunnable.run(LightweightDecoratorManager.java:81)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.decorate(LightweightDecoratorManager.java:365)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.getDecorations(LightweightDecoratorManager.java:347)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.ensureResultCached(DecorationScheduler.java:371)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:331)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.jdt.core 4 4 2010-03-02 21:33:32.109
+!MESSAGE Invalid ZIP archive: src/shipendleftinv.png [in Battleship]
+!STACK 1
+org.eclipse.core.runtime.CoreException: I/O exception
+	at org.eclipse.jdt.internal.core.JavaModelManager.getZipFile(JavaModelManager.java:2425)
+	at org.eclipse.jdt.internal.core.JarPackageFragmentRoot.getJar(JarPackageFragmentRoot.java:152)
+	at org.eclipse.jdt.internal.core.JarPackageFragmentRoot.computeChildren(JarPackageFragmentRoot.java:78)
+	at org.eclipse.jdt.internal.core.JavaProjectElementInfo.initializePackageNames(JavaProjectElementInfo.java:252)
+	at org.eclipse.jdt.internal.core.JavaProjectElementInfo.getProjectCache(JavaProjectElementInfo.java:225)
+	at org.eclipse.jdt.internal.core.JavaProjectElementInfo.newNameLookup(JavaProjectElementInfo.java:290)
+	at org.eclipse.jdt.internal.core.JavaProject.newNameLookup(JavaProject.java:2258)
+	at org.eclipse.jdt.internal.core.SearchableEnvironment.<init>(SearchableEnvironment.java:57)
+	at org.eclipse.jdt.internal.core.SearchableEnvironment.<init>(SearchableEnvironment.java:64)
+	at org.eclipse.jdt.internal.core.CancelableNameEnvironment.<init>(CancelableNameEnvironment.java:26)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:506)
+	at org.eclipse.jdt.core.dom.ASTParser.internalCreateAST(ASTParser.java:908)
+	at org.eclipse.jdt.core.dom.ASTParser.createAST(ASTParser.java:657)
+	at org.eclipse.jdt.internal.ui.javaeditor.ASTProvider$1.run(ASTProvider.java:544)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.jdt.internal.ui.javaeditor.ASTProvider.createAST(ASTProvider.java:537)
+	at org.eclipse.jdt.internal.ui.javaeditor.ASTProvider.getAST(ASTProvider.java:478)
+	at org.eclipse.jdt.ui.SharedASTProvider.getAST(SharedASTProvider.java:126)
+	at org.eclipse.jdt.ui.OverrideIndicatorLabelDecorator.getOverrideIndicators(OverrideIndicatorLabelDecorator.java:161)
+	at org.eclipse.jdt.ui.OverrideIndicatorLabelDecorator.computeAdornmentFlags(OverrideIndicatorLabelDecorator.java:136)
+	at org.eclipse.jdt.ui.OverrideIndicatorLabelDecorator.decorate(OverrideIndicatorLabelDecorator.java:272)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorDefinition.decorate(LightweightDecoratorDefinition.java:269)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager$LightweightRunnable.run(LightweightDecoratorManager.java:81)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.decorate(LightweightDecoratorManager.java:365)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.getDecorations(LightweightDecoratorManager.java:347)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.ensureResultCached(DecorationScheduler.java:371)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:331)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: java.util.zip.ZipException: error in opening zip file
+	at java.util.zip.ZipFile.open(Native Method)
+	at java.util.zip.ZipFile.<init>(Unknown Source)
+	at java.util.zip.ZipFile.<init>(Unknown Source)
+	at org.eclipse.jdt.internal.core.JavaModelManager.getZipFile(JavaModelManager.java:2419)
+	... 28 more
+!SUBENTRY 1 org.eclipse.jdt.core 4 -1 2010-03-02 21:33:32.109
+!MESSAGE I/O exception
+!STACK 0
+java.util.zip.ZipException: error in opening zip file
+	at java.util.zip.ZipFile.open(Native Method)
+	at java.util.zip.ZipFile.<init>(Unknown Source)
+	at java.util.zip.ZipFile.<init>(Unknown Source)
+	at org.eclipse.jdt.internal.core.JavaModelManager.getZipFile(JavaModelManager.java:2419)
+	at org.eclipse.jdt.internal.core.JarPackageFragmentRoot.getJar(JarPackageFragmentRoot.java:152)
+	at org.eclipse.jdt.internal.core.JarPackageFragmentRoot.computeChildren(JarPackageFragmentRoot.java:78)
+	at org.eclipse.jdt.internal.core.JavaProjectElementInfo.initializePackageNames(JavaProjectElementInfo.java:252)
+	at org.eclipse.jdt.internal.core.JavaProjectElementInfo.getProjectCache(JavaProjectElementInfo.java:225)
+	at org.eclipse.jdt.internal.core.JavaProjectElementInfo.newNameLookup(JavaProjectElementInfo.java:290)
+	at org.eclipse.jdt.internal.core.JavaProject.newNameLookup(JavaProject.java:2258)
+	at org.eclipse.jdt.internal.core.SearchableEnvironment.<init>(SearchableEnvironment.java:57)
+	at org.eclipse.jdt.internal.core.SearchableEnvironment.<init>(SearchableEnvironment.java:64)
+	at org.eclipse.jdt.internal.core.CancelableNameEnvironment.<init>(CancelableNameEnvironment.java:26)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:506)
+	at org.eclipse.jdt.core.dom.ASTParser.internalCreateAST(ASTParser.java:908)
+	at org.eclipse.jdt.core.dom.ASTParser.createAST(ASTParser.java:657)
+	at org.eclipse.jdt.internal.ui.javaeditor.ASTProvider$1.run(ASTProvider.java:544)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.jdt.internal.ui.javaeditor.ASTProvider.createAST(ASTProvider.java:537)
+	at org.eclipse.jdt.internal.ui.javaeditor.ASTProvider.getAST(ASTProvider.java:478)
+	at org.eclipse.jdt.ui.SharedASTProvider.getAST(SharedASTProvider.java:126)
+	at org.eclipse.jdt.ui.OverrideIndicatorLabelDecorator.getOverrideIndicators(OverrideIndicatorLabelDecorator.java:161)
+	at org.eclipse.jdt.ui.OverrideIndicatorLabelDecorator.computeAdornmentFlags(OverrideIndicatorLabelDecorator.java:136)
+	at org.eclipse.jdt.ui.OverrideIndicatorLabelDecorator.decorate(OverrideIndicatorLabelDecorator.java:272)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorDefinition.decorate(LightweightDecoratorDefinition.java:269)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager$LightweightRunnable.run(LightweightDecoratorManager.java:81)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.decorate(LightweightDecoratorManager.java:365)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.getDecorations(LightweightDecoratorManager.java:347)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.ensureResultCached(DecorationScheduler.java:371)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:331)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.jdt.core 4 4 2010-03-02 21:33:32.109
+!MESSAGE Invalid ZIP archive: src/shipendright.png [in Battleship]
+!STACK 1
+org.eclipse.core.runtime.CoreException: I/O exception
+	at org.eclipse.jdt.internal.core.JavaModelManager.getZipFile(JavaModelManager.java:2425)
+	at org.eclipse.jdt.internal.core.JarPackageFragmentRoot.getJar(JarPackageFragmentRoot.java:152)
+	at org.eclipse.jdt.internal.core.JarPackageFragmentRoot.computeChildren(JarPackageFragmentRoot.java:78)
+	at org.eclipse.jdt.internal.core.JavaProjectElementInfo.initializePackageNames(JavaProjectElementInfo.java:252)
+	at org.eclipse.jdt.internal.core.JavaProjectElementInfo.getProjectCache(JavaProjectElementInfo.java:225)
+	at org.eclipse.jdt.internal.core.JavaProjectElementInfo.newNameLookup(JavaProjectElementInfo.java:290)
+	at org.eclipse.jdt.internal.core.JavaProject.newNameLookup(JavaProject.java:2258)
+	at org.eclipse.jdt.internal.core.SearchableEnvironment.<init>(SearchableEnvironment.java:57)
+	at org.eclipse.jdt.internal.core.SearchableEnvironment.<init>(SearchableEnvironment.java:64)
+	at org.eclipse.jdt.internal.core.CancelableNameEnvironment.<init>(CancelableNameEnvironment.java:26)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:506)
+	at org.eclipse.jdt.core.dom.ASTParser.internalCreateAST(ASTParser.java:908)
+	at org.eclipse.jdt.core.dom.ASTParser.createAST(ASTParser.java:657)
+	at org.eclipse.jdt.internal.ui.javaeditor.ASTProvider$1.run(ASTProvider.java:544)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.jdt.internal.ui.javaeditor.ASTProvider.createAST(ASTProvider.java:537)
+	at org.eclipse.jdt.internal.ui.javaeditor.ASTProvider.getAST(ASTProvider.java:478)
+	at org.eclipse.jdt.ui.SharedASTProvider.getAST(SharedASTProvider.java:126)
+	at org.eclipse.jdt.ui.OverrideIndicatorLabelDecorator.getOverrideIndicators(OverrideIndicatorLabelDecorator.java:161)
+	at org.eclipse.jdt.ui.OverrideIndicatorLabelDecorator.computeAdornmentFlags(OverrideIndicatorLabelDecorator.java:136)
+	at org.eclipse.jdt.ui.OverrideIndicatorLabelDecorator.decorate(OverrideIndicatorLabelDecorator.java:272)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorDefinition.decorate(LightweightDecoratorDefinition.java:269)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager$LightweightRunnable.run(LightweightDecoratorManager.java:81)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.decorate(LightweightDecoratorManager.java:365)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.getDecorations(LightweightDecoratorManager.java:347)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.ensureResultCached(DecorationScheduler.java:371)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:331)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: java.util.zip.ZipException: error in opening zip file
+	at java.util.zip.ZipFile.open(Native Method)
+	at java.util.zip.ZipFile.<init>(Unknown Source)
+	at java.util.zip.ZipFile.<init>(Unknown Source)
+	at org.eclipse.jdt.internal.core.JavaModelManager.getZipFile(JavaModelManager.java:2419)
+	... 28 more
+!SUBENTRY 1 org.eclipse.jdt.core 4 -1 2010-03-02 21:33:32.109
+!MESSAGE I/O exception
+!STACK 0
+java.util.zip.ZipException: error in opening zip file
+	at java.util.zip.ZipFile.open(Native Method)
+	at java.util.zip.ZipFile.<init>(Unknown Source)
+	at java.util.zip.ZipFile.<init>(Unknown Source)
+	at org.eclipse.jdt.internal.core.JavaModelManager.getZipFile(JavaModelManager.java:2419)
+	at org.eclipse.jdt.internal.core.JarPackageFragmentRoot.getJar(JarPackageFragmentRoot.java:152)
+	at org.eclipse.jdt.internal.core.JarPackageFragmentRoot.computeChildren(JarPackageFragmentRoot.java:78)
+	at org.eclipse.jdt.internal.core.JavaProjectElementInfo.initializePackageNames(JavaProjectElementInfo.java:252)
+	at org.eclipse.jdt.internal.core.JavaProjectElementInfo.getProjectCache(JavaProjectElementInfo.java:225)
+	at org.eclipse.jdt.internal.core.JavaProjectElementInfo.newNameLookup(JavaProjectElementInfo.java:290)
+	at org.eclipse.jdt.internal.core.JavaProject.newNameLookup(JavaProject.java:2258)
+	at org.eclipse.jdt.internal.core.SearchableEnvironment.<init>(SearchableEnvironment.java:57)
+	at org.eclipse.jdt.internal.core.SearchableEnvironment.<init>(SearchableEnvironment.java:64)
+	at org.eclipse.jdt.internal.core.CancelableNameEnvironment.<init>(CancelableNameEnvironment.java:26)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:506)
+	at org.eclipse.jdt.core.dom.ASTParser.internalCreateAST(ASTParser.java:908)
+	at org.eclipse.jdt.core.dom.ASTParser.createAST(ASTParser.java:657)
+	at org.eclipse.jdt.internal.ui.javaeditor.ASTProvider$1.run(ASTProvider.java:544)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.jdt.internal.ui.javaeditor.ASTProvider.createAST(ASTProvider.java:537)
+	at org.eclipse.jdt.internal.ui.javaeditor.ASTProvider.getAST(ASTProvider.java:478)
+	at org.eclipse.jdt.ui.SharedASTProvider.getAST(SharedASTProvider.java:126)
+	at org.eclipse.jdt.ui.OverrideIndicatorLabelDecorator.getOverrideIndicators(OverrideIndicatorLabelDecorator.java:161)
+	at org.eclipse.jdt.ui.OverrideIndicatorLabelDecorator.computeAdornmentFlags(OverrideIndicatorLabelDecorator.java:136)
+	at org.eclipse.jdt.ui.OverrideIndicatorLabelDecorator.decorate(OverrideIndicatorLabelDecorator.java:272)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorDefinition.decorate(LightweightDecoratorDefinition.java:269)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager$LightweightRunnable.run(LightweightDecoratorManager.java:81)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.decorate(LightweightDecoratorManager.java:365)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.getDecorations(LightweightDecoratorManager.java:347)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.ensureResultCached(DecorationScheduler.java:371)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:331)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.jdt.core 4 4 2010-03-02 21:33:32.109
+!MESSAGE Invalid ZIP archive: src/shipendup.png [in Battleship]
+!STACK 1
+org.eclipse.core.runtime.CoreException: I/O exception
+	at org.eclipse.jdt.internal.core.JavaModelManager.getZipFile(JavaModelManager.java:2425)
+	at org.eclipse.jdt.internal.core.JarPackageFragmentRoot.getJar(JarPackageFragmentRoot.java:152)
+	at org.eclipse.jdt.internal.core.JarPackageFragmentRoot.computeChildren(JarPackageFragmentRoot.java:78)
+	at org.eclipse.jdt.internal.core.JavaProjectElementInfo.initializePackageNames(JavaProjectElementInfo.java:252)
+	at org.eclipse.jdt.internal.core.JavaProjectElementInfo.getProjectCache(JavaProjectElementInfo.java:225)
+	at org.eclipse.jdt.internal.core.JavaProjectElementInfo.newNameLookup(JavaProjectElementInfo.java:290)
+	at org.eclipse.jdt.internal.core.JavaProject.newNameLookup(JavaProject.java:2258)
+	at org.eclipse.jdt.internal.core.SearchableEnvironment.<init>(SearchableEnvironment.java:57)
+	at org.eclipse.jdt.internal.core.SearchableEnvironment.<init>(SearchableEnvironment.java:64)
+	at org.eclipse.jdt.internal.core.CancelableNameEnvironment.<init>(CancelableNameEnvironment.java:26)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:506)
+	at org.eclipse.jdt.core.dom.ASTParser.internalCreateAST(ASTParser.java:908)
+	at org.eclipse.jdt.core.dom.ASTParser.createAST(ASTParser.java:657)
+	at org.eclipse.jdt.internal.ui.javaeditor.ASTProvider$1.run(ASTProvider.java:544)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.jdt.internal.ui.javaeditor.ASTProvider.createAST(ASTProvider.java:537)
+	at org.eclipse.jdt.internal.ui.javaeditor.ASTProvider.getAST(ASTProvider.java:478)
+	at org.eclipse.jdt.ui.SharedASTProvider.getAST(SharedASTProvider.java:126)
+	at org.eclipse.jdt.ui.OverrideIndicatorLabelDecorator.getOverrideIndicators(OverrideIndicatorLabelDecorator.java:161)
+	at org.eclipse.jdt.ui.OverrideIndicatorLabelDecorator.computeAdornmentFlags(OverrideIndicatorLabelDecorator.java:136)
+	at org.eclipse.jdt.ui.OverrideIndicatorLabelDecorator.decorate(OverrideIndicatorLabelDecorator.java:272)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorDefinition.decorate(LightweightDecoratorDefinition.java:269)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager$LightweightRunnable.run(LightweightDecoratorManager.java:81)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.decorate(LightweightDecoratorManager.java:365)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.getDecorations(LightweightDecoratorManager.java:347)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.ensureResultCached(DecorationScheduler.java:371)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:331)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: java.util.zip.ZipException: error in opening zip file
+	at java.util.zip.ZipFile.open(Native Method)
+	at java.util.zip.ZipFile.<init>(Unknown Source)
+	at java.util.zip.ZipFile.<init>(Unknown Source)
+	at org.eclipse.jdt.internal.core.JavaModelManager.getZipFile(JavaModelManager.java:2419)
+	... 28 more
+!SUBENTRY 1 org.eclipse.jdt.core 4 -1 2010-03-02 21:33:32.109
+!MESSAGE I/O exception
+!STACK 0
+java.util.zip.ZipException: error in opening zip file
+	at java.util.zip.ZipFile.open(Native Method)
+	at java.util.zip.ZipFile.<init>(Unknown Source)
+	at java.util.zip.ZipFile.<init>(Unknown Source)
+	at org.eclipse.jdt.internal.core.JavaModelManager.getZipFile(JavaModelManager.java:2419)
+	at org.eclipse.jdt.internal.core.JarPackageFragmentRoot.getJar(JarPackageFragmentRoot.java:152)
+	at org.eclipse.jdt.internal.core.JarPackageFragmentRoot.computeChildren(JarPackageFragmentRoot.java:78)
+	at org.eclipse.jdt.internal.core.JavaProjectElementInfo.initializePackageNames(JavaProjectElementInfo.java:252)
+	at org.eclipse.jdt.internal.core.JavaProjectElementInfo.getProjectCache(JavaProjectElementInfo.java:225)
+	at org.eclipse.jdt.internal.core.JavaProjectElementInfo.newNameLookup(JavaProjectElementInfo.java:290)
+	at org.eclipse.jdt.internal.core.JavaProject.newNameLookup(JavaProject.java:2258)
+	at org.eclipse.jdt.internal.core.SearchableEnvironment.<init>(SearchableEnvironment.java:57)
+	at org.eclipse.jdt.internal.core.SearchableEnvironment.<init>(SearchableEnvironment.java:64)
+	at org.eclipse.jdt.internal.core.CancelableNameEnvironment.<init>(CancelableNameEnvironment.java:26)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:506)
+	at org.eclipse.jdt.core.dom.ASTParser.internalCreateAST(ASTParser.java:908)
+	at org.eclipse.jdt.core.dom.ASTParser.createAST(ASTParser.java:657)
+	at org.eclipse.jdt.internal.ui.javaeditor.ASTProvider$1.run(ASTProvider.java:544)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.jdt.internal.ui.javaeditor.ASTProvider.createAST(ASTProvider.java:537)
+	at org.eclipse.jdt.internal.ui.javaeditor.ASTProvider.getAST(ASTProvider.java:478)
+	at org.eclipse.jdt.ui.SharedASTProvider.getAST(SharedASTProvider.java:126)
+	at org.eclipse.jdt.ui.OverrideIndicatorLabelDecorator.getOverrideIndicators(OverrideIndicatorLabelDecorator.java:161)
+	at org.eclipse.jdt.ui.OverrideIndicatorLabelDecorator.computeAdornmentFlags(OverrideIndicatorLabelDecorator.java:136)
+	at org.eclipse.jdt.ui.OverrideIndicatorLabelDecorator.decorate(OverrideIndicatorLabelDecorator.java:272)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorDefinition.decorate(LightweightDecoratorDefinition.java:269)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager$LightweightRunnable.run(LightweightDecoratorManager.java:81)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.decorate(LightweightDecoratorManager.java:365)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.getDecorations(LightweightDecoratorManager.java:347)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.ensureResultCached(DecorationScheduler.java:371)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:331)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.jdt.core 4 4 2010-03-02 21:33:32.109
+!MESSAGE Invalid ZIP archive: src/shipendupinv.png [in Battleship]
+!STACK 1
+org.eclipse.core.runtime.CoreException: I/O exception
+	at org.eclipse.jdt.internal.core.JavaModelManager.getZipFile(JavaModelManager.java:2425)
+	at org.eclipse.jdt.internal.core.JarPackageFragmentRoot.getJar(JarPackageFragmentRoot.java:152)
+	at org.eclipse.jdt.internal.core.JarPackageFragmentRoot.computeChildren(JarPackageFragmentRoot.java:78)
+	at org.eclipse.jdt.internal.core.JavaProjectElementInfo.initializePackageNames(JavaProjectElementInfo.java:252)
+	at org.eclipse.jdt.internal.core.JavaProjectElementInfo.getProjectCache(JavaProjectElementInfo.java:225)
+	at org.eclipse.jdt.internal.core.JavaProjectElementInfo.newNameLookup(JavaProjectElementInfo.java:290)
+	at org.eclipse.jdt.internal.core.JavaProject.newNameLookup(JavaProject.java:2258)
+	at org.eclipse.jdt.internal.core.SearchableEnvironment.<init>(SearchableEnvironment.java:57)
+	at org.eclipse.jdt.internal.core.SearchableEnvironment.<init>(SearchableEnvironment.java:64)
+	at org.eclipse.jdt.internal.core.CancelableNameEnvironment.<init>(CancelableNameEnvironment.java:26)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:506)
+	at org.eclipse.jdt.core.dom.ASTParser.internalCreateAST(ASTParser.java:908)
+	at org.eclipse.jdt.core.dom.ASTParser.createAST(ASTParser.java:657)
+	at org.eclipse.jdt.internal.ui.javaeditor.ASTProvider$1.run(ASTProvider.java:544)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.jdt.internal.ui.javaeditor.ASTProvider.createAST(ASTProvider.java:537)
+	at org.eclipse.jdt.internal.ui.javaeditor.ASTProvider.getAST(ASTProvider.java:478)
+	at org.eclipse.jdt.ui.SharedASTProvider.getAST(SharedASTProvider.java:126)
+	at org.eclipse.jdt.ui.OverrideIndicatorLabelDecorator.getOverrideIndicators(OverrideIndicatorLabelDecorator.java:161)
+	at org.eclipse.jdt.ui.OverrideIndicatorLabelDecorator.computeAdornmentFlags(OverrideIndicatorLabelDecorator.java:136)
+	at org.eclipse.jdt.ui.OverrideIndicatorLabelDecorator.decorate(OverrideIndicatorLabelDecorator.java:272)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorDefinition.decorate(LightweightDecoratorDefinition.java:269)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager$LightweightRunnable.run(LightweightDecoratorManager.java:81)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.decorate(LightweightDecoratorManager.java:365)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.getDecorations(LightweightDecoratorManager.java:347)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.ensureResultCached(DecorationScheduler.java:371)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:331)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: java.util.zip.ZipException: error in opening zip file
+	at java.util.zip.ZipFile.open(Native Method)
+	at java.util.zip.ZipFile.<init>(Unknown Source)
+	at java.util.zip.ZipFile.<init>(Unknown Source)
+	at org.eclipse.jdt.internal.core.JavaModelManager.getZipFile(JavaModelManager.java:2419)
+	... 28 more
+!SUBENTRY 1 org.eclipse.jdt.core 4 -1 2010-03-02 21:33:32.109
+!MESSAGE I/O exception
+!STACK 0
+java.util.zip.ZipException: error in opening zip file
+	at java.util.zip.ZipFile.open(Native Method)
+	at java.util.zip.ZipFile.<init>(Unknown Source)
+	at java.util.zip.ZipFile.<init>(Unknown Source)
+	at org.eclipse.jdt.internal.core.JavaModelManager.getZipFile(JavaModelManager.java:2419)
+	at org.eclipse.jdt.internal.core.JarPackageFragmentRoot.getJar(JarPackageFragmentRoot.java:152)
+	at org.eclipse.jdt.internal.core.JarPackageFragmentRoot.computeChildren(JarPackageFragmentRoot.java:78)
+	at org.eclipse.jdt.internal.core.JavaProjectElementInfo.initializePackageNames(JavaProjectElementInfo.java:252)
+	at org.eclipse.jdt.internal.core.JavaProjectElementInfo.getProjectCache(JavaProjectElementInfo.java:225)
+	at org.eclipse.jdt.internal.core.JavaProjectElementInfo.newNameLookup(JavaProjectElementInfo.java:290)
+	at org.eclipse.jdt.internal.core.JavaProject.newNameLookup(JavaProject.java:2258)
+	at org.eclipse.jdt.internal.core.SearchableEnvironment.<init>(SearchableEnvironment.java:57)
+	at org.eclipse.jdt.internal.core.SearchableEnvironment.<init>(SearchableEnvironment.java:64)
+	at org.eclipse.jdt.internal.core.CancelableNameEnvironment.<init>(CancelableNameEnvironment.java:26)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:506)
+	at org.eclipse.jdt.core.dom.ASTParser.internalCreateAST(ASTParser.java:908)
+	at org.eclipse.jdt.core.dom.ASTParser.createAST(ASTParser.java:657)
+	at org.eclipse.jdt.internal.ui.javaeditor.ASTProvider$1.run(ASTProvider.java:544)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.jdt.internal.ui.javaeditor.ASTProvider.createAST(ASTProvider.java:537)
+	at org.eclipse.jdt.internal.ui.javaeditor.ASTProvider.getAST(ASTProvider.java:478)
+	at org.eclipse.jdt.ui.SharedASTProvider.getAST(SharedASTProvider.java:126)
+	at org.eclipse.jdt.ui.OverrideIndicatorLabelDecorator.getOverrideIndicators(OverrideIndicatorLabelDecorator.java:161)
+	at org.eclipse.jdt.ui.OverrideIndicatorLabelDecorator.computeAdornmentFlags(OverrideIndicatorLabelDecorator.java:136)
+	at org.eclipse.jdt.ui.OverrideIndicatorLabelDecorator.decorate(OverrideIndicatorLabelDecorator.java:272)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorDefinition.decorate(LightweightDecoratorDefinition.java:269)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager$LightweightRunnable.run(LightweightDecoratorManager.java:81)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.decorate(LightweightDecoratorManager.java:365)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.getDecorations(LightweightDecoratorManager.java:347)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.ensureResultCached(DecorationScheduler.java:371)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:331)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.jdt.core 4 4 2010-03-02 21:33:32.109
+!MESSAGE Invalid ZIP archive: src/Shiphorz.png [in Battleship]
+!STACK 1
+org.eclipse.core.runtime.CoreException: I/O exception
+	at org.eclipse.jdt.internal.core.JavaModelManager.getZipFile(JavaModelManager.java:2425)
+	at org.eclipse.jdt.internal.core.JarPackageFragmentRoot.getJar(JarPackageFragmentRoot.java:152)
+	at org.eclipse.jdt.internal.core.JarPackageFragmentRoot.computeChildren(JarPackageFragmentRoot.java:78)
+	at org.eclipse.jdt.internal.core.JavaProjectElementInfo.initializePackageNames(JavaProjectElementInfo.java:252)
+	at org.eclipse.jdt.internal.core.JavaProjectElementInfo.getProjectCache(JavaProjectElementInfo.java:225)
+	at org.eclipse.jdt.internal.core.JavaProjectElementInfo.newNameLookup(JavaProjectElementInfo.java:290)
+	at org.eclipse.jdt.internal.core.JavaProject.newNameLookup(JavaProject.java:2258)
+	at org.eclipse.jdt.internal.core.SearchableEnvironment.<init>(SearchableEnvironment.java:57)
+	at org.eclipse.jdt.internal.core.SearchableEnvironment.<init>(SearchableEnvironment.java:64)
+	at org.eclipse.jdt.internal.core.CancelableNameEnvironment.<init>(CancelableNameEnvironment.java:26)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:506)
+	at org.eclipse.jdt.core.dom.ASTParser.internalCreateAST(ASTParser.java:908)
+	at org.eclipse.jdt.core.dom.ASTParser.createAST(ASTParser.java:657)
+	at org.eclipse.jdt.internal.ui.javaeditor.ASTProvider$1.run(ASTProvider.java:544)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.jdt.internal.ui.javaeditor.ASTProvider.createAST(ASTProvider.java:537)
+	at org.eclipse.jdt.internal.ui.javaeditor.ASTProvider.getAST(ASTProvider.java:478)
+	at org.eclipse.jdt.ui.SharedASTProvider.getAST(SharedASTProvider.java:126)
+	at org.eclipse.jdt.ui.OverrideIndicatorLabelDecorator.getOverrideIndicators(OverrideIndicatorLabelDecorator.java:161)
+	at org.eclipse.jdt.ui.OverrideIndicatorLabelDecorator.computeAdornmentFlags(OverrideIndicatorLabelDecorator.java:136)
+	at org.eclipse.jdt.ui.OverrideIndicatorLabelDecorator.decorate(OverrideIndicatorLabelDecorator.java:272)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorDefinition.decorate(LightweightDecoratorDefinition.java:269)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager$LightweightRunnable.run(LightweightDecoratorManager.java:81)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.decorate(LightweightDecoratorManager.java:365)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.getDecorations(LightweightDecoratorManager.java:347)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.ensureResultCached(DecorationScheduler.java:371)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:331)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: java.util.zip.ZipException: error in opening zip file
+	at java.util.zip.ZipFile.open(Native Method)
+	at java.util.zip.ZipFile.<init>(Unknown Source)
+	at java.util.zip.ZipFile.<init>(Unknown Source)
+	at org.eclipse.jdt.internal.core.JavaModelManager.getZipFile(JavaModelManager.java:2419)
+	... 28 more
+!SUBENTRY 1 org.eclipse.jdt.core 4 -1 2010-03-02 21:33:32.109
+!MESSAGE I/O exception
+!STACK 0
+java.util.zip.ZipException: error in opening zip file
+	at java.util.zip.ZipFile.open(Native Method)
+	at java.util.zip.ZipFile.<init>(Unknown Source)
+	at java.util.zip.ZipFile.<init>(Unknown Source)
+	at org.eclipse.jdt.internal.core.JavaModelManager.getZipFile(JavaModelManager.java:2419)
+	at org.eclipse.jdt.internal.core.JarPackageFragmentRoot.getJar(JarPackageFragmentRoot.java:152)
+	at org.eclipse.jdt.internal.core.JarPackageFragmentRoot.computeChildren(JarPackageFragmentRoot.java:78)
+	at org.eclipse.jdt.internal.core.JavaProjectElementInfo.initializePackageNames(JavaProjectElementInfo.java:252)
+	at org.eclipse.jdt.internal.core.JavaProjectElementInfo.getProjectCache(JavaProjectElementInfo.java:225)
+	at org.eclipse.jdt.internal.core.JavaProjectElementInfo.newNameLookup(JavaProjectElementInfo.java:290)
+	at org.eclipse.jdt.internal.core.JavaProject.newNameLookup(JavaProject.java:2258)
+	at org.eclipse.jdt.internal.core.SearchableEnvironment.<init>(SearchableEnvironment.java:57)
+	at org.eclipse.jdt.internal.core.SearchableEnvironment.<init>(SearchableEnvironment.java:64)
+	at org.eclipse.jdt.internal.core.CancelableNameEnvironment.<init>(CancelableNameEnvironment.java:26)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:506)
+	at org.eclipse.jdt.core.dom.ASTParser.internalCreateAST(ASTParser.java:908)
+	at org.eclipse.jdt.core.dom.ASTParser.createAST(ASTParser.java:657)
+	at org.eclipse.jdt.internal.ui.javaeditor.ASTProvider$1.run(ASTProvider.java:544)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.jdt.internal.ui.javaeditor.ASTProvider.createAST(ASTProvider.java:537)
+	at org.eclipse.jdt.internal.ui.javaeditor.ASTProvider.getAST(ASTProvider.java:478)
+	at org.eclipse.jdt.ui.SharedASTProvider.getAST(SharedASTProvider.java:126)
+	at org.eclipse.jdt.ui.OverrideIndicatorLabelDecorator.getOverrideIndicators(OverrideIndicatorLabelDecorator.java:161)
+	at org.eclipse.jdt.ui.OverrideIndicatorLabelDecorator.computeAdornmentFlags(OverrideIndicatorLabelDecorator.java:136)
+	at org.eclipse.jdt.ui.OverrideIndicatorLabelDecorator.decorate(OverrideIndicatorLabelDecorator.java:272)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorDefinition.decorate(LightweightDecoratorDefinition.java:269)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager$LightweightRunnable.run(LightweightDecoratorManager.java:81)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.decorate(LightweightDecoratorManager.java:365)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.getDecorations(LightweightDecoratorManager.java:347)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.ensureResultCached(DecorationScheduler.java:371)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:331)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.jdt.core 4 4 2010-03-02 21:33:32.109
+!MESSAGE Invalid ZIP archive: src/Shiphorzinv.png [in Battleship]
+!STACK 1
+org.eclipse.core.runtime.CoreException: I/O exception
+	at org.eclipse.jdt.internal.core.JavaModelManager.getZipFile(JavaModelManager.java:2425)
+	at org.eclipse.jdt.internal.core.JarPackageFragmentRoot.getJar(JarPackageFragmentRoot.java:152)
+	at org.eclipse.jdt.internal.core.JarPackageFragmentRoot.computeChildren(JarPackageFragmentRoot.java:78)
+	at org.eclipse.jdt.internal.core.JavaProjectElementInfo.initializePackageNames(JavaProjectElementInfo.java:252)
+	at org.eclipse.jdt.internal.core.JavaProjectElementInfo.getProjectCache(JavaProjectElementInfo.java:225)
+	at org.eclipse.jdt.internal.core.JavaProjectElementInfo.newNameLookup(JavaProjectElementInfo.java:290)
+	at org.eclipse.jdt.internal.core.JavaProject.newNameLookup(JavaProject.java:2258)
+	at org.eclipse.jdt.internal.core.SearchableEnvironment.<init>(SearchableEnvironment.java:57)
+	at org.eclipse.jdt.internal.core.SearchableEnvironment.<init>(SearchableEnvironment.java:64)
+	at org.eclipse.jdt.internal.core.CancelableNameEnvironment.<init>(CancelableNameEnvironment.java:26)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:506)
+	at org.eclipse.jdt.core.dom.ASTParser.internalCreateAST(ASTParser.java:908)
+	at org.eclipse.jdt.core.dom.ASTParser.createAST(ASTParser.java:657)
+	at org.eclipse.jdt.internal.ui.javaeditor.ASTProvider$1.run(ASTProvider.java:544)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.jdt.internal.ui.javaeditor.ASTProvider.createAST(ASTProvider.java:537)
+	at org.eclipse.jdt.internal.ui.javaeditor.ASTProvider.getAST(ASTProvider.java:478)
+	at org.eclipse.jdt.ui.SharedASTProvider.getAST(SharedASTProvider.java:126)
+	at org.eclipse.jdt.ui.OverrideIndicatorLabelDecorator.getOverrideIndicators(OverrideIndicatorLabelDecorator.java:161)
+	at org.eclipse.jdt.ui.OverrideIndicatorLabelDecorator.computeAdornmentFlags(OverrideIndicatorLabelDecorator.java:136)
+	at org.eclipse.jdt.ui.OverrideIndicatorLabelDecorator.decorate(OverrideIndicatorLabelDecorator.java:272)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorDefinition.decorate(LightweightDecoratorDefinition.java:269)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager$LightweightRunnable.run(LightweightDecoratorManager.java:81)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.decorate(LightweightDecoratorManager.java:365)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.getDecorations(LightweightDecoratorManager.java:347)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.ensureResultCached(DecorationScheduler.java:371)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:331)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: java.util.zip.ZipException: error in opening zip file
+	at java.util.zip.ZipFile.open(Native Method)
+	at java.util.zip.ZipFile.<init>(Unknown Source)
+	at java.util.zip.ZipFile.<init>(Unknown Source)
+	at org.eclipse.jdt.internal.core.JavaModelManager.getZipFile(JavaModelManager.java:2419)
+	... 28 more
+!SUBENTRY 1 org.eclipse.jdt.core 4 -1 2010-03-02 21:33:32.109
+!MESSAGE I/O exception
+!STACK 0
+java.util.zip.ZipException: error in opening zip file
+	at java.util.zip.ZipFile.open(Native Method)
+	at java.util.zip.ZipFile.<init>(Unknown Source)
+	at java.util.zip.ZipFile.<init>(Unknown Source)
+	at org.eclipse.jdt.internal.core.JavaModelManager.getZipFile(JavaModelManager.java:2419)
+	at org.eclipse.jdt.internal.core.JarPackageFragmentRoot.getJar(JarPackageFragmentRoot.java:152)
+	at org.eclipse.jdt.internal.core.JarPackageFragmentRoot.computeChildren(JarPackageFragmentRoot.java:78)
+	at org.eclipse.jdt.internal.core.JavaProjectElementInfo.initializePackageNames(JavaProjectElementInfo.java:252)
+	at org.eclipse.jdt.internal.core.JavaProjectElementInfo.getProjectCache(JavaProjectElementInfo.java:225)
+	at org.eclipse.jdt.internal.core.JavaProjectElementInfo.newNameLookup(JavaProjectElementInfo.java:290)
+	at org.eclipse.jdt.internal.core.JavaProject.newNameLookup(JavaProject.java:2258)
+	at org.eclipse.jdt.internal.core.SearchableEnvironment.<init>(SearchableEnvironment.java:57)
+	at org.eclipse.jdt.internal.core.SearchableEnvironment.<init>(SearchableEnvironment.java:64)
+	at org.eclipse.jdt.internal.core.CancelableNameEnvironment.<init>(CancelableNameEnvironment.java:26)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:506)
+	at org.eclipse.jdt.core.dom.ASTParser.internalCreateAST(ASTParser.java:908)
+	at org.eclipse.jdt.core.dom.ASTParser.createAST(ASTParser.java:657)
+	at org.eclipse.jdt.internal.ui.javaeditor.ASTProvider$1.run(ASTProvider.java:544)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.jdt.internal.ui.javaeditor.ASTProvider.createAST(ASTProvider.java:537)
+	at org.eclipse.jdt.internal.ui.javaeditor.ASTProvider.getAST(ASTProvider.java:478)
+	at org.eclipse.jdt.ui.SharedASTProvider.getAST(SharedASTProvider.java:126)
+	at org.eclipse.jdt.ui.OverrideIndicatorLabelDecorator.getOverrideIndicators(OverrideIndicatorLabelDecorator.java:161)
+	at org.eclipse.jdt.ui.OverrideIndicatorLabelDecorator.computeAdornmentFlags(OverrideIndicatorLabelDecorator.java:136)
+	at org.eclipse.jdt.ui.OverrideIndicatorLabelDecorator.decorate(OverrideIndicatorLabelDecorator.java:272)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorDefinition.decorate(LightweightDecoratorDefinition.java:269)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager$LightweightRunnable.run(LightweightDecoratorManager.java:81)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.decorate(LightweightDecoratorManager.java:365)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.getDecorations(LightweightDecoratorManager.java:347)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.ensureResultCached(DecorationScheduler.java:371)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:331)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.jdt.core 4 4 2010-03-02 21:33:32.109
+!MESSAGE Invalid ZIP archive: src/Shipvert.png [in Battleship]
+!STACK 1
+org.eclipse.core.runtime.CoreException: I/O exception
+	at org.eclipse.jdt.internal.core.JavaModelManager.getZipFile(JavaModelManager.java:2425)
+	at org.eclipse.jdt.internal.core.JarPackageFragmentRoot.getJar(JarPackageFragmentRoot.java:152)
+	at org.eclipse.jdt.internal.core.JarPackageFragmentRoot.computeChildren(JarPackageFragmentRoot.java:78)
+	at org.eclipse.jdt.internal.core.JavaProjectElementInfo.initializePackageNames(JavaProjectElementInfo.java:252)
+	at org.eclipse.jdt.internal.core.JavaProjectElementInfo.getProjectCache(JavaProjectElementInfo.java:225)
+	at org.eclipse.jdt.internal.core.JavaProjectElementInfo.newNameLookup(JavaProjectElementInfo.java:290)
+	at org.eclipse.jdt.internal.core.JavaProject.newNameLookup(JavaProject.java:2258)
+	at org.eclipse.jdt.internal.core.SearchableEnvironment.<init>(SearchableEnvironment.java:57)
+	at org.eclipse.jdt.internal.core.SearchableEnvironment.<init>(SearchableEnvironment.java:64)
+	at org.eclipse.jdt.internal.core.CancelableNameEnvironment.<init>(CancelableNameEnvironment.java:26)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:506)
+	at org.eclipse.jdt.core.dom.ASTParser.internalCreateAST(ASTParser.java:908)
+	at org.eclipse.jdt.core.dom.ASTParser.createAST(ASTParser.java:657)
+	at org.eclipse.jdt.internal.ui.javaeditor.ASTProvider$1.run(ASTProvider.java:544)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.jdt.internal.ui.javaeditor.ASTProvider.createAST(ASTProvider.java:537)
+	at org.eclipse.jdt.internal.ui.javaeditor.ASTProvider.getAST(ASTProvider.java:478)
+	at org.eclipse.jdt.ui.SharedASTProvider.getAST(SharedASTProvider.java:126)
+	at org.eclipse.jdt.ui.OverrideIndicatorLabelDecorator.getOverrideIndicators(OverrideIndicatorLabelDecorator.java:161)
+	at org.eclipse.jdt.ui.OverrideIndicatorLabelDecorator.computeAdornmentFlags(OverrideIndicatorLabelDecorator.java:136)
+	at org.eclipse.jdt.ui.OverrideIndicatorLabelDecorator.decorate(OverrideIndicatorLabelDecorator.java:272)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorDefinition.decorate(LightweightDecoratorDefinition.java:269)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager$LightweightRunnable.run(LightweightDecoratorManager.java:81)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.decorate(LightweightDecoratorManager.java:365)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.getDecorations(LightweightDecoratorManager.java:347)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.ensureResultCached(DecorationScheduler.java:371)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:331)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: java.util.zip.ZipException: error in opening zip file
+	at java.util.zip.ZipFile.open(Native Method)
+	at java.util.zip.ZipFile.<init>(Unknown Source)
+	at java.util.zip.ZipFile.<init>(Unknown Source)
+	at org.eclipse.jdt.internal.core.JavaModelManager.getZipFile(JavaModelManager.java:2419)
+	... 28 more
+!SUBENTRY 1 org.eclipse.jdt.core 4 -1 2010-03-02 21:33:32.109
+!MESSAGE I/O exception
+!STACK 0
+java.util.zip.ZipException: error in opening zip file
+	at java.util.zip.ZipFile.open(Native Method)
+	at java.util.zip.ZipFile.<init>(Unknown Source)
+	at java.util.zip.ZipFile.<init>(Unknown Source)
+	at org.eclipse.jdt.internal.core.JavaModelManager.getZipFile(JavaModelManager.java:2419)
+	at org.eclipse.jdt.internal.core.JarPackageFragmentRoot.getJar(JarPackageFragmentRoot.java:152)
+	at org.eclipse.jdt.internal.core.JarPackageFragmentRoot.computeChildren(JarPackageFragmentRoot.java:78)
+	at org.eclipse.jdt.internal.core.JavaProjectElementInfo.initializePackageNames(JavaProjectElementInfo.java:252)
+	at org.eclipse.jdt.internal.core.JavaProjectElementInfo.getProjectCache(JavaProjectElementInfo.java:225)
+	at org.eclipse.jdt.internal.core.JavaProjectElementInfo.newNameLookup(JavaProjectElementInfo.java:290)
+	at org.eclipse.jdt.internal.core.JavaProject.newNameLookup(JavaProject.java:2258)
+	at org.eclipse.jdt.internal.core.SearchableEnvironment.<init>(SearchableEnvironment.java:57)
+	at org.eclipse.jdt.internal.core.SearchableEnvironment.<init>(SearchableEnvironment.java:64)
+	at org.eclipse.jdt.internal.core.CancelableNameEnvironment.<init>(CancelableNameEnvironment.java:26)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:506)
+	at org.eclipse.jdt.core.dom.ASTParser.internalCreateAST(ASTParser.java:908)
+	at org.eclipse.jdt.core.dom.ASTParser.createAST(ASTParser.java:657)
+	at org.eclipse.jdt.internal.ui.javaeditor.ASTProvider$1.run(ASTProvider.java:544)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.jdt.internal.ui.javaeditor.ASTProvider.createAST(ASTProvider.java:537)
+	at org.eclipse.jdt.internal.ui.javaeditor.ASTProvider.getAST(ASTProvider.java:478)
+	at org.eclipse.jdt.ui.SharedASTProvider.getAST(SharedASTProvider.java:126)
+	at org.eclipse.jdt.ui.OverrideIndicatorLabelDecorator.getOverrideIndicators(OverrideIndicatorLabelDecorator.java:161)
+	at org.eclipse.jdt.ui.OverrideIndicatorLabelDecorator.computeAdornmentFlags(OverrideIndicatorLabelDecorator.java:136)
+	at org.eclipse.jdt.ui.OverrideIndicatorLabelDecorator.decorate(OverrideIndicatorLabelDecorator.java:272)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorDefinition.decorate(LightweightDecoratorDefinition.java:269)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager$LightweightRunnable.run(LightweightDecoratorManager.java:81)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.decorate(LightweightDecoratorManager.java:365)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.getDecorations(LightweightDecoratorManager.java:347)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.ensureResultCached(DecorationScheduler.java:371)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:331)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.jdt.core 4 4 2010-03-02 21:33:32.109
+!MESSAGE Invalid ZIP archive: src/Shipvertinv.png [in Battleship]
+!STACK 1
+org.eclipse.core.runtime.CoreException: I/O exception
+	at org.eclipse.jdt.internal.core.JavaModelManager.getZipFile(JavaModelManager.java:2425)
+	at org.eclipse.jdt.internal.core.JarPackageFragmentRoot.getJar(JarPackageFragmentRoot.java:152)
+	at org.eclipse.jdt.internal.core.JarPackageFragmentRoot.computeChildren(JarPackageFragmentRoot.java:78)
+	at org.eclipse.jdt.internal.core.JavaProjectElementInfo.initializePackageNames(JavaProjectElementInfo.java:252)
+	at org.eclipse.jdt.internal.core.JavaProjectElementInfo.getProjectCache(JavaProjectElementInfo.java:225)
+	at org.eclipse.jdt.internal.core.JavaProjectElementInfo.newNameLookup(JavaProjectElementInfo.java:290)
+	at org.eclipse.jdt.internal.core.JavaProject.newNameLookup(JavaProject.java:2258)
+	at org.eclipse.jdt.internal.core.SearchableEnvironment.<init>(SearchableEnvironment.java:57)
+	at org.eclipse.jdt.internal.core.SearchableEnvironment.<init>(SearchableEnvironment.java:64)
+	at org.eclipse.jdt.internal.core.CancelableNameEnvironment.<init>(CancelableNameEnvironment.java:26)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:506)
+	at org.eclipse.jdt.core.dom.ASTParser.internalCreateAST(ASTParser.java:908)
+	at org.eclipse.jdt.core.dom.ASTParser.createAST(ASTParser.java:657)
+	at org.eclipse.jdt.internal.ui.javaeditor.ASTProvider$1.run(ASTProvider.java:544)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.jdt.internal.ui.javaeditor.ASTProvider.createAST(ASTProvider.java:537)
+	at org.eclipse.jdt.internal.ui.javaeditor.ASTProvider.getAST(ASTProvider.java:478)
+	at org.eclipse.jdt.ui.SharedASTProvider.getAST(SharedASTProvider.java:126)
+	at org.eclipse.jdt.ui.OverrideIndicatorLabelDecorator.getOverrideIndicators(OverrideIndicatorLabelDecorator.java:161)
+	at org.eclipse.jdt.ui.OverrideIndicatorLabelDecorator.computeAdornmentFlags(OverrideIndicatorLabelDecorator.java:136)
+	at org.eclipse.jdt.ui.OverrideIndicatorLabelDecorator.decorate(OverrideIndicatorLabelDecorator.java:272)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorDefinition.decorate(LightweightDecoratorDefinition.java:269)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager$LightweightRunnable.run(LightweightDecoratorManager.java:81)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.decorate(LightweightDecoratorManager.java:365)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.getDecorations(LightweightDecoratorManager.java:347)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.ensureResultCached(DecorationScheduler.java:371)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:331)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: java.util.zip.ZipException: error in opening zip file
+	at java.util.zip.ZipFile.open(Native Method)
+	at java.util.zip.ZipFile.<init>(Unknown Source)
+	at java.util.zip.ZipFile.<init>(Unknown Source)
+	at org.eclipse.jdt.internal.core.JavaModelManager.getZipFile(JavaModelManager.java:2419)
+	... 28 more
+!SUBENTRY 1 org.eclipse.jdt.core 4 -1 2010-03-02 21:33:32.125
+!MESSAGE I/O exception
+!STACK 0
+java.util.zip.ZipException: error in opening zip file
+	at java.util.zip.ZipFile.open(Native Method)
+	at java.util.zip.ZipFile.<init>(Unknown Source)
+	at java.util.zip.ZipFile.<init>(Unknown Source)
+	at org.eclipse.jdt.internal.core.JavaModelManager.getZipFile(JavaModelManager.java:2419)
+	at org.eclipse.jdt.internal.core.JarPackageFragmentRoot.getJar(JarPackageFragmentRoot.java:152)
+	at org.eclipse.jdt.internal.core.JarPackageFragmentRoot.computeChildren(JarPackageFragmentRoot.java:78)
+	at org.eclipse.jdt.internal.core.JavaProjectElementInfo.initializePackageNames(JavaProjectElementInfo.java:252)
+	at org.eclipse.jdt.internal.core.JavaProjectElementInfo.getProjectCache(JavaProjectElementInfo.java:225)
+	at org.eclipse.jdt.internal.core.JavaProjectElementInfo.newNameLookup(JavaProjectElementInfo.java:290)
+	at org.eclipse.jdt.internal.core.JavaProject.newNameLookup(JavaProject.java:2258)
+	at org.eclipse.jdt.internal.core.SearchableEnvironment.<init>(SearchableEnvironment.java:57)
+	at org.eclipse.jdt.internal.core.SearchableEnvironment.<init>(SearchableEnvironment.java:64)
+	at org.eclipse.jdt.internal.core.CancelableNameEnvironment.<init>(CancelableNameEnvironment.java:26)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:506)
+	at org.eclipse.jdt.core.dom.ASTParser.internalCreateAST(ASTParser.java:908)
+	at org.eclipse.jdt.core.dom.ASTParser.createAST(ASTParser.java:657)
+	at org.eclipse.jdt.internal.ui.javaeditor.ASTProvider$1.run(ASTProvider.java:544)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.jdt.internal.ui.javaeditor.ASTProvider.createAST(ASTProvider.java:537)
+	at org.eclipse.jdt.internal.ui.javaeditor.ASTProvider.getAST(ASTProvider.java:478)
+	at org.eclipse.jdt.ui.SharedASTProvider.getAST(SharedASTProvider.java:126)
+	at org.eclipse.jdt.ui.OverrideIndicatorLabelDecorator.getOverrideIndicators(OverrideIndicatorLabelDecorator.java:161)
+	at org.eclipse.jdt.ui.OverrideIndicatorLabelDecorator.computeAdornmentFlags(OverrideIndicatorLabelDecorator.java:136)
+	at org.eclipse.jdt.ui.OverrideIndicatorLabelDecorator.decorate(OverrideIndicatorLabelDecorator.java:272)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorDefinition.decorate(LightweightDecoratorDefinition.java:269)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager$LightweightRunnable.run(LightweightDecoratorManager.java:81)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.decorate(LightweightDecoratorManager.java:365)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.getDecorations(LightweightDecoratorManager.java:347)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.ensureResultCached(DecorationScheduler.java:371)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:331)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SESSION 2010-08-19 18:17:19.765 -----------------------------------------------
+eclipse.buildId=M20090917-0800
+java.version=1.6.0_21
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.core.resources 2 10035 2010-08-19 18:17:20.890
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+!SESSION 2011-01-06 22:45:17.875 -----------------------------------------------
+eclipse.buildId=M20090917-0800
+java.version=1.6.0_22
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.osgi 2 0 2011-01-06 22:45:44.078
+!MESSAGE While loading class "org.eclipse.team.internal.ccvs.core.resources.CVSWorkspaceRoot", thread "Thread[Worker-3,5,main]" timed out waiting (5000ms) for thread "Thread[Worker-4,5,main]" to finish starting bundle "org.eclipse.team.cvs.core_3.3.200.I20090430-0408 [193]". To avoid deadlock, thread "Thread[Worker-3,5,main]" is proceeding but "org.eclipse.team.internal.ccvs.core.resources.CVSWorkspaceRoot" may not be fully initialized.
+!STACK 0
+org.osgi.framework.BundleException: State change in progress for bundle "reference:file:plugins/org.eclipse.team.cvs.core_3.3.200.I20090430-0408.jar" by thread "Worker-4".
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.beginStateChange(AbstractBundle.java:1073)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.start(AbstractBundle.java:278)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:408)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:111)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClass(ClasspathManager.java:449)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.findLocalClass(DefaultClassLoader.java:211)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:381)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:457)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:410)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:398)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.loadClass(DefaultClassLoader.java:105)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at org.eclipse.team.internal.ccvs.core.util.BuildCleanupListener.resourceChanged(BuildCleanupListener.java:120)
+	at org.eclipse.core.internal.events.NotificationManager$2.run(NotificationManager.java:291)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:285)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:149)
+	at org.eclipse.core.internal.resources.Workspace.broadcastBuildEvent(Workspace.java:297)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:143)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:238)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: org.eclipse.osgi.framework.internal.core.AbstractBundle$BundleStatusException
+	... 21 more
+Root exception:
+org.eclipse.osgi.framework.internal.core.AbstractBundle$BundleStatusException
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.beginStateChange(AbstractBundle.java:1073)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.start(AbstractBundle.java:278)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:408)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:111)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClass(ClasspathManager.java:449)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.findLocalClass(DefaultClassLoader.java:211)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:381)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:457)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:410)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:398)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.loadClass(DefaultClassLoader.java:105)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at org.eclipse.team.internal.ccvs.core.util.BuildCleanupListener.resourceChanged(BuildCleanupListener.java:120)
+	at org.eclipse.core.internal.events.NotificationManager$2.run(NotificationManager.java:291)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:285)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:149)
+	at org.eclipse.core.internal.resources.Workspace.broadcastBuildEvent(Workspace.java:297)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:143)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:238)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.osgi 2 0 2011-01-06 22:45:49.125
+!MESSAGE While loading class "org.eclipse.team.internal.ccvs.core.resources.RemoteFolder", thread "Thread[Worker-3,5,main]" timed out waiting (5000ms) for thread "Thread[Worker-4,5,main]" to finish starting bundle "org.eclipse.team.cvs.core_3.3.200.I20090430-0408 [193]". To avoid deadlock, thread "Thread[Worker-3,5,main]" is proceeding but "org.eclipse.team.internal.ccvs.core.resources.RemoteFolder" may not be fully initialized.
+!STACK 0
+org.osgi.framework.BundleException: State change in progress for bundle "reference:file:plugins/org.eclipse.team.cvs.core_3.3.200.I20090430-0408.jar" by thread "Worker-4".
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.beginStateChange(AbstractBundle.java:1073)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.start(AbstractBundle.java:278)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:408)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:111)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClass(ClasspathManager.java:449)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.findLocalClass(DefaultClassLoader.java:211)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:381)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:457)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:410)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:398)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.loadClass(DefaultClassLoader.java:105)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at org.eclipse.team.internal.ccvs.core.util.BuildCleanupListener.resourceChanged(BuildCleanupListener.java:120)
+	at org.eclipse.core.internal.events.NotificationManager$2.run(NotificationManager.java:291)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:285)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:149)
+	at org.eclipse.core.internal.resources.Workspace.broadcastBuildEvent(Workspace.java:297)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:143)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:238)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: org.eclipse.osgi.framework.internal.core.AbstractBundle$BundleStatusException
+	... 21 more
+Root exception:
+org.eclipse.osgi.framework.internal.core.AbstractBundle$BundleStatusException
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.beginStateChange(AbstractBundle.java:1073)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.start(AbstractBundle.java:278)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:408)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:111)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClass(ClasspathManager.java:449)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.findLocalClass(DefaultClassLoader.java:211)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:381)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:457)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:410)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:398)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.loadClass(DefaultClassLoader.java:105)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at org.eclipse.team.internal.ccvs.core.util.BuildCleanupListener.resourceChanged(BuildCleanupListener.java:120)
+	at org.eclipse.core.internal.events.NotificationManager$2.run(NotificationManager.java:291)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:285)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:149)
+	at org.eclipse.core.internal.resources.Workspace.broadcastBuildEvent(Workspace.java:297)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:143)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:238)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.osgi 2 0 2011-01-06 22:45:54.125
+!MESSAGE While loading class "org.eclipse.team.internal.ccvs.core.CVSWorkspaceSubscriber", thread "Thread[main,6,main]" timed out waiting (5000ms) for thread "Thread[Worker-4,5,main]" to finish starting bundle "org.eclipse.team.cvs.core_3.3.200.I20090430-0408 [193]". To avoid deadlock, thread "Thread[main,6,main]" is proceeding but "org.eclipse.team.internal.ccvs.core.CVSWorkspaceSubscriber" may not be fully initialized.
+!STACK 0
+org.osgi.framework.BundleException: State change in progress for bundle "reference:file:plugins/org.eclipse.team.cvs.core_3.3.200.I20090430-0408.jar" by thread "Worker-4".
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.beginStateChange(AbstractBundle.java:1073)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.start(AbstractBundle.java:278)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:408)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:111)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClass(ClasspathManager.java:449)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.findLocalClass(DefaultClassLoader.java:211)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:381)
+	at org.eclipse.osgi.internal.loader.SingleSourcePackage.loadClass(SingleSourcePackage.java:33)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:454)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:410)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:398)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.loadClass(DefaultClassLoader.java:105)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at org.eclipse.team.internal.ccvs.ui.CVSUIPlugin.start(CVSUIPlugin.java:683)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl$1.run(BundleContextImpl.java:783)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.startActivator(BundleContextImpl.java:774)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.start(BundleContextImpl.java:755)
+	at org.eclipse.osgi.framework.internal.core.BundleHost.startWorker(BundleHost.java:352)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.start(AbstractBundle.java:280)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:408)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:111)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClass(ClasspathManager.java:449)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.findLocalClass(DefaultClassLoader.java:211)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:381)
+	at org.eclipse.osgi.internal.loader.SingleSourcePackage.loadClass(SingleSourcePackage.java:33)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:454)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:410)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:398)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.loadClass(DefaultClassLoader.java:105)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at org.eclipse.mylyn.internal.team.ccvs.CvsActiveChangeSetProvider.getActiveChangeSetManager(CvsActiveChangeSetProvider.java:26)
+	at org.eclipse.mylyn.internal.team.ui.FocusedTeamUiPlugin.addActiveChangeSetProvider(FocusedTeamUiPlugin.java:127)
+	at org.eclipse.mylyn.internal.team.ui.FocusedTeamExtensionPointReader.readExtensions(FocusedTeamExtensionPointReader.java:53)
+	at org.eclipse.mylyn.internal.team.ui.FocusedTeamUiPlugin$1.run(FocusedTeamUiPlugin.java:80)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:134)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:3855)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3476)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2405)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2369)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2221)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:500)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:493)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:113)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:194)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:368)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:559)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:514)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1311)
+Caused by: org.eclipse.osgi.framework.internal.core.AbstractBundle$BundleStatusException
+	... 59 more
+Root exception:
+org.eclipse.osgi.framework.internal.core.AbstractBundle$BundleStatusException
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.beginStateChange(AbstractBundle.java:1073)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.start(AbstractBundle.java:278)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:408)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:111)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClass(ClasspathManager.java:449)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.findLocalClass(DefaultClassLoader.java:211)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:381)
+	at org.eclipse.osgi.internal.loader.SingleSourcePackage.loadClass(SingleSourcePackage.java:33)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:454)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:410)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:398)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.loadClass(DefaultClassLoader.java:105)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at org.eclipse.team.internal.ccvs.ui.CVSUIPlugin.start(CVSUIPlugin.java:683)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl$1.run(BundleContextImpl.java:783)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.startActivator(BundleContextImpl.java:774)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.start(BundleContextImpl.java:755)
+	at org.eclipse.osgi.framework.internal.core.BundleHost.startWorker(BundleHost.java:352)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.start(AbstractBundle.java:280)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:408)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:111)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClass(ClasspathManager.java:449)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.findLocalClass(DefaultClassLoader.java:211)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:381)
+	at org.eclipse.osgi.internal.loader.SingleSourcePackage.loadClass(SingleSourcePackage.java:33)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:454)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:410)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:398)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.loadClass(DefaultClassLoader.java:105)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at org.eclipse.mylyn.internal.team.ccvs.CvsActiveChangeSetProvider.getActiveChangeSetManager(CvsActiveChangeSetProvider.java:26)
+	at org.eclipse.mylyn.internal.team.ui.FocusedTeamUiPlugin.addActiveChangeSetProvider(FocusedTeamUiPlugin.java:127)
+	at org.eclipse.mylyn.internal.team.ui.FocusedTeamExtensionPointReader.readExtensions(FocusedTeamExtensionPointReader.java:53)
+	at org.eclipse.mylyn.internal.team.ui.FocusedTeamUiPlugin$1.run(FocusedTeamUiPlugin.java:80)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:134)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:3855)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3476)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2405)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2369)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2221)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:500)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:493)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:113)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:194)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:368)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:559)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:514)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1311)
+
+!ENTRY org.eclipse.osgi 2 0 2011-01-06 22:45:54.140
+!MESSAGE While loading class "org.eclipse.team.internal.ccvs.core.resources.RemoteFolderTree", thread "Thread[Worker-3,5,main]" timed out waiting (5000ms) for thread "Thread[Worker-4,5,main]" to finish starting bundle "org.eclipse.team.cvs.core_3.3.200.I20090430-0408 [193]". To avoid deadlock, thread "Thread[Worker-3,5,main]" is proceeding but "org.eclipse.team.internal.ccvs.core.resources.RemoteFolderTree" may not be fully initialized.
+!STACK 0
+org.osgi.framework.BundleException: State change in progress for bundle "reference:file:plugins/org.eclipse.team.cvs.core_3.3.200.I20090430-0408.jar" by thread "Worker-4".
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.beginStateChange(AbstractBundle.java:1073)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.start(AbstractBundle.java:278)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:408)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:111)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClass(ClasspathManager.java:449)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.findLocalClass(DefaultClassLoader.java:211)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:381)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:457)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:410)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:398)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.loadClass(DefaultClassLoader.java:105)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at org.eclipse.team.internal.ccvs.core.util.BuildCleanupListener.resourceChanged(BuildCleanupListener.java:120)
+	at org.eclipse.core.internal.events.NotificationManager$2.run(NotificationManager.java:291)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:285)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:149)
+	at org.eclipse.core.internal.resources.Workspace.broadcastBuildEvent(Workspace.java:297)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:143)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:238)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: org.eclipse.osgi.framework.internal.core.AbstractBundle$BundleStatusException
+	... 21 more
+Root exception:
+org.eclipse.osgi.framework.internal.core.AbstractBundle$BundleStatusException
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.beginStateChange(AbstractBundle.java:1073)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.start(AbstractBundle.java:278)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:408)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:111)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClass(ClasspathManager.java:449)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.findLocalClass(DefaultClassLoader.java:211)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:381)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:457)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:410)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:398)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.loadClass(DefaultClassLoader.java:105)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at org.eclipse.team.internal.ccvs.core.util.BuildCleanupListener.resourceChanged(BuildCleanupListener.java:120)
+	at org.eclipse.core.internal.events.NotificationManager$2.run(NotificationManager.java:291)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:285)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:149)
+	at org.eclipse.core.internal.resources.Workspace.broadcastBuildEvent(Workspace.java:297)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:143)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:238)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.osgi 2 0 2011-01-06 22:45:59.140
+!MESSAGE While loading class "org.eclipse.team.internal.ccvs.core.ICVSFile", thread "Thread[Worker-3,5,main]" timed out waiting (5000ms) for thread "Thread[Worker-4,5,main]" to finish starting bundle "org.eclipse.team.cvs.core_3.3.200.I20090430-0408 [193]". To avoid deadlock, thread "Thread[Worker-3,5,main]" is proceeding but "org.eclipse.team.internal.ccvs.core.ICVSFile" may not be fully initialized.
+!STACK 0
+org.osgi.framework.BundleException: State change in progress for bundle "reference:file:plugins/org.eclipse.team.cvs.core_3.3.200.I20090430-0408.jar" by thread "Worker-4".
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.beginStateChange(AbstractBundle.java:1073)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.start(AbstractBundle.java:278)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:408)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:111)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClass(ClasspathManager.java:449)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.findLocalClass(DefaultClassLoader.java:211)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:381)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:457)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:410)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:398)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.loadClass(DefaultClassLoader.java:105)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at org.eclipse.team.internal.ccvs.core.util.BuildCleanupListener.resourceChanged(BuildCleanupListener.java:120)
+	at org.eclipse.core.internal.events.NotificationManager$2.run(NotificationManager.java:291)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:285)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:149)
+	at org.eclipse.core.internal.resources.Workspace.broadcastBuildEvent(Workspace.java:297)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:143)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:238)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: org.eclipse.osgi.framework.internal.core.AbstractBundle$BundleStatusException
+	... 21 more
+Root exception:
+org.eclipse.osgi.framework.internal.core.AbstractBundle$BundleStatusException
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.beginStateChange(AbstractBundle.java:1073)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.start(AbstractBundle.java:278)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:408)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:111)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClass(ClasspathManager.java:449)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.findLocalClass(DefaultClassLoader.java:211)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:381)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:457)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:410)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:398)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.loadClass(DefaultClassLoader.java:105)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at org.eclipse.team.internal.ccvs.core.util.BuildCleanupListener.resourceChanged(BuildCleanupListener.java:120)
+	at org.eclipse.core.internal.events.NotificationManager$2.run(NotificationManager.java:291)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:285)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:149)
+	at org.eclipse.core.internal.resources.Workspace.broadcastBuildEvent(Workspace.java:297)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:143)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:238)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.osgi 2 0 2011-01-06 22:46:04.140
+!MESSAGE While loading class "org.eclipse.team.internal.ccvs.core.ICVSRemoteFile", thread "Thread[main,6,main]" timed out waiting (5000ms) for thread "Thread[Worker-4,5,main]" to finish starting bundle "org.eclipse.team.cvs.core_3.3.200.I20090430-0408 [193]". To avoid deadlock, thread "Thread[main,6,main]" is proceeding but "org.eclipse.team.internal.ccvs.core.ICVSRemoteFile" may not be fully initialized.
+!STACK 0
+org.osgi.framework.BundleException: State change in progress for bundle "reference:file:plugins/org.eclipse.team.cvs.core_3.3.200.I20090430-0408.jar" by thread "Worker-4".
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.beginStateChange(AbstractBundle.java:1073)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.start(AbstractBundle.java:278)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:408)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:111)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClass(ClasspathManager.java:449)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.findLocalClass(DefaultClassLoader.java:211)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:381)
+	at org.eclipse.osgi.internal.loader.SingleSourcePackage.loadClass(SingleSourcePackage.java:33)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:454)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:410)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:398)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.loadClass(DefaultClassLoader.java:105)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Unknown Source)
+	at org.eclipse.team.internal.ccvs.ui.CVSUIPlugin.start(CVSUIPlugin.java:684)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl$1.run(BundleContextImpl.java:783)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.startActivator(BundleContextImpl.java:774)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.start(BundleContextImpl.java:755)
+	at org.eclipse.osgi.framework.internal.core.BundleHost.startWorker(BundleHost.java:352)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.start(AbstractBundle.java:280)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:408)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:111)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClass(ClasspathManager.java:449)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.findLocalClass(DefaultClassLoader.java:211)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:381)
+	at org.eclipse.osgi.internal.loader.SingleSourcePackage.loadClass(SingleSourcePackage.java:33)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:454)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:410)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:398)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.loadClass(DefaultClassLoader.java:105)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at org.eclipse.mylyn.internal.team.ccvs.CvsActiveChangeSetProvider.getActiveChangeSetManager(CvsActiveChangeSetProvider.java:26)
+	at org.eclipse.mylyn.internal.team.ui.FocusedTeamUiPlugin.addActiveChangeSetProvider(FocusedTeamUiPlugin.java:127)
+	at org.eclipse.mylyn.internal.team.ui.FocusedTeamExtensionPointReader.readExtensions(FocusedTeamExtensionPointReader.java:53)
+	at org.eclipse.mylyn.internal.team.ui.FocusedTeamUiPlugin$1.run(FocusedTeamUiPlugin.java:80)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:134)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:3855)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3476)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2405)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2369)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2221)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:500)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:493)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:113)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:194)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:368)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:559)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:514)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1311)
+Caused by: org.eclipse.osgi.framework.internal.core.AbstractBundle$BundleStatusException
+	... 61 more
+Root exception:
+org.eclipse.osgi.framework.internal.core.AbstractBundle$BundleStatusException
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.beginStateChange(AbstractBundle.java:1073)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.start(AbstractBundle.java:278)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:408)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:111)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClass(ClasspathManager.java:449)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.findLocalClass(DefaultClassLoader.java:211)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:381)
+	at org.eclipse.osgi.internal.loader.SingleSourcePackage.loadClass(SingleSourcePackage.java:33)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:454)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:410)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:398)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.loadClass(DefaultClassLoader.java:105)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Unknown Source)
+	at org.eclipse.team.internal.ccvs.ui.CVSUIPlugin.start(CVSUIPlugin.java:684)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl$1.run(BundleContextImpl.java:783)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.startActivator(BundleContextImpl.java:774)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.start(BundleContextImpl.java:755)
+	at org.eclipse.osgi.framework.internal.core.BundleHost.startWorker(BundleHost.java:352)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.start(AbstractBundle.java:280)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:408)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:111)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClass(ClasspathManager.java:449)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.findLocalClass(DefaultClassLoader.java:211)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:381)
+	at org.eclipse.osgi.internal.loader.SingleSourcePackage.loadClass(SingleSourcePackage.java:33)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:454)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:410)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:398)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.loadClass(DefaultClassLoader.java:105)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at org.eclipse.mylyn.internal.team.ccvs.CvsActiveChangeSetProvider.getActiveChangeSetManager(CvsActiveChangeSetProvider.java:26)
+	at org.eclipse.mylyn.internal.team.ui.FocusedTeamUiPlugin.addActiveChangeSetProvider(FocusedTeamUiPlugin.java:127)
+	at org.eclipse.mylyn.internal.team.ui.FocusedTeamExtensionPointReader.readExtensions(FocusedTeamExtensionPointReader.java:53)
+	at org.eclipse.mylyn.internal.team.ui.FocusedTeamUiPlugin$1.run(FocusedTeamUiPlugin.java:80)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:134)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:3855)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3476)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2405)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2369)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2221)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:500)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:493)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:113)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:194)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:368)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:559)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:514)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1311)
+
+!ENTRY org.eclipse.osgi 2 0 2011-01-06 22:46:04.140
+!MESSAGE While loading class "org.eclipse.team.internal.ccvs.core.resources.EclipseFolder", thread "Thread[Worker-3,5,main]" timed out waiting (5000ms) for thread "Thread[Worker-4,5,main]" to finish starting bundle "org.eclipse.team.cvs.core_3.3.200.I20090430-0408 [193]". To avoid deadlock, thread "Thread[Worker-3,5,main]" is proceeding but "org.eclipse.team.internal.ccvs.core.resources.EclipseFolder" may not be fully initialized.
+!STACK 0
+org.osgi.framework.BundleException: State change in progress for bundle "reference:file:plugins/org.eclipse.team.cvs.core_3.3.200.I20090430-0408.jar" by thread "Worker-4".
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.beginStateChange(AbstractBundle.java:1073)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.start(AbstractBundle.java:278)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:408)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:111)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClass(ClasspathManager.java:449)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.findLocalClass(DefaultClassLoader.java:211)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:381)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:457)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:410)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:398)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.loadClass(DefaultClassLoader.java:105)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at org.eclipse.team.internal.ccvs.core.resources.CVSWorkspaceRoot.getCVSFolderFor(CVSWorkspaceRoot.java:66)
+	at org.eclipse.team.internal.ccvs.core.util.BuildCleanupListener.resourceChanged(BuildCleanupListener.java:120)
+	at org.eclipse.core.internal.events.NotificationManager$2.run(NotificationManager.java:291)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:285)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:149)
+	at org.eclipse.core.internal.resources.Workspace.broadcastBuildEvent(Workspace.java:297)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:143)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:238)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: org.eclipse.osgi.framework.internal.core.AbstractBundle$BundleStatusException
+	... 22 more
+Root exception:
+org.eclipse.osgi.framework.internal.core.AbstractBundle$BundleStatusException
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.beginStateChange(AbstractBundle.java:1073)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.start(AbstractBundle.java:278)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:408)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:111)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClass(ClasspathManager.java:449)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.findLocalClass(DefaultClassLoader.java:211)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:381)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:457)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:410)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:398)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.loadClass(DefaultClassLoader.java:105)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at org.eclipse.team.internal.ccvs.core.resources.CVSWorkspaceRoot.getCVSFolderFor(CVSWorkspaceRoot.java:66)
+	at org.eclipse.team.internal.ccvs.core.util.BuildCleanupListener.resourceChanged(BuildCleanupListener.java:120)
+	at org.eclipse.core.internal.events.NotificationManager$2.run(NotificationManager.java:291)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:285)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:149)
+	at org.eclipse.core.internal.resources.Workspace.broadcastBuildEvent(Workspace.java:297)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:143)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:238)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.equinox.p2.touchpoint.natives 2 0 2011-01-06 23:01:27.468
+!MESSAGE Could not remove temporary backup directory (it is safe to manually delete it and its contents): C:\DOCUME~1\Jeffrey\LOCALS~1\Temp\epp.package.java_25abe8ac1cc0_c0a8016606b2
+!SESSION 2011-01-06 23:28:23.890 -----------------------------------------------
+eclipse.buildId=M20100909-0800
+java.version=1.6.0_22
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.ui 4 0 2011-01-06 23:34:42.390
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.equinox.internal.p2.ui.dialogs.RepositorySelectionGroup$15.getInitialLocationText(RepositorySelectionGroup.java:535)
+	at org.eclipse.equinox.internal.p2.ui.dialogs.RepositoryNameAndLocationDialog.createLocationField(RepositoryNameAndLocationDialog.java:207)
+	at org.eclipse.equinox.internal.p2.ui.dialogs.AddRepositoryDialog.createDialogArea(AddRepositoryDialog.java:86)
+	at org.eclipse.jface.dialogs.Dialog.createContents(Dialog.java:760)
+	at org.eclipse.jface.window.Window.create(Window.java:431)
+	at org.eclipse.jface.dialogs.Dialog.create(Dialog.java:1089)
+	at org.eclipse.jface.dialogs.StatusDialog.create(StatusDialog.java:203)
+	at org.eclipse.jface.window.Window.open(Window.java:790)
+	at org.eclipse.equinox.internal.p2.ui.dialogs.RepositorySelectionGroup.addRepository(RepositorySelectionGroup.java:556)
+	at org.eclipse.equinox.internal.p2.ui.dialogs.RepositorySelectionGroup$6.widgetSelected(RepositorySelectionGroup.java:200)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:234)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1053)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4066)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3657)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:825)
+	at org.eclipse.jface.window.Window.open(Window.java:801)
+	at org.eclipse.equinox.p2.ui.ProvisioningUI.openInstallWizard(ProvisioningUI.java:206)
+	at org.eclipse.equinox.internal.p2.ui.sdk.InstallNewSoftwareHandler.doExecute(InstallNewSoftwareHandler.java:31)
+	at org.eclipse.equinox.internal.p2.ui.sdk.PreloadingRepositoryHandler.doExecuteAndLoad(PreloadingRepositoryHandler.java:114)
+	at org.eclipse.equinox.internal.p2.ui.sdk.PreloadingRepositoryHandler$1.run(PreloadingRepositoryHandler.java:68)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:70)
+	at org.eclipse.equinox.internal.p2.ui.sdk.PreloadingRepositoryHandler.execute(PreloadingRepositoryHandler.java:66)
+	at org.eclipse.ui.internal.handlers.HandlerProxy.execute(HandlerProxy.java:293)
+	at org.eclipse.core.commands.Command.executeWithChecks(Command.java:476)
+	at org.eclipse.core.commands.ParameterizedCommand.executeWithChecks(ParameterizedCommand.java:508)
+	at org.eclipse.ui.internal.handlers.HandlerService.executeCommand(HandlerService.java:169)
+	at org.eclipse.ui.internal.handlers.SlaveHandlerService.executeCommand(SlaveHandlerService.java:241)
+	at org.eclipse.ui.menus.CommandContributionItem.handleWidgetSelection(CommandContributionItem.java:820)
+	at org.eclipse.ui.menus.CommandContributionItem.access$19(CommandContributionItem.java:806)
+	at org.eclipse.ui.menus.CommandContributionItem$5.handleEvent(CommandContributionItem.java:796)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1053)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4066)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3657)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2640)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2604)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2438)
+	at org.eclipse.ui.internal.Workbench$7.run(Workbench.java:671)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:664)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:115)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:369)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:619)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:574)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1407)
+!SESSION 2011-01-18 17:56:03.671 -----------------------------------------------
+eclipse.buildId=M20100909-0800
+java.version=1.6.0_22
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.ui.workbench 2 0 2011-01-18 17:56:57.718
+!MESSAGE A handler conflict occurred.  This may disable some commands.
+!SUBENTRY 1 org.eclipse.ui.workbench 2 0 2011-01-18 17:56:57.718
+!MESSAGE Conflict for 'org.eclipse.ltk.ui.refactor.create.refactoring.script':
+HandlerActivation(commandId=org.eclipse.ltk.ui.refactor.create.refactoring.script,
+	handler=ActionDelegateHandlerProxy(null,org.eclipse.ltk.ui.refactoring.actions.CreateRefactoringScriptAction),
+	expression=AndExpression(ActionSetExpression(org.eclipse.cdt.ui.CodingActionSet,org.eclipse.ui.internal.WorkbenchWindow@751d58),WorkbenchWindowExpression(org.eclipse.ui.internal.WorkbenchWindow@751d58)),sourcePriority=16640)
+HandlerActivation(commandId=org.eclipse.ltk.ui.refactor.create.refactoring.script,
+	handler=ActionDelegateHandlerProxy(null,org.eclipse.jdt.internal.ui.refactoring.actions.CreateRefactoringScriptAction),
+	expression=AndExpression(ActionSetExpression(org.eclipse.jdt.ui.CodingActionSet,org.eclipse.ui.internal.WorkbenchWindow@751d58),WorkbenchWindowExpression(org.eclipse.ui.internal.WorkbenchWindow@751d58)),sourcePriority=16640)
+!SUBENTRY 1 org.eclipse.ui.workbench 2 0 2011-01-18 17:56:57.718
+!MESSAGE Conflict for 'org.eclipse.ltk.ui.refactor.show.refactoring.history':
+HandlerActivation(commandId=org.eclipse.ltk.ui.refactor.show.refactoring.history,
+	handler=ActionDelegateHandlerProxy(null,org.eclipse.ltk.ui.refactoring.actions.ShowRefactoringHistoryAction),
+	expression=AndExpression(ActionSetExpression(org.eclipse.cdt.ui.CodingActionSet,org.eclipse.ui.internal.WorkbenchWindow@751d58),WorkbenchWindowExpression(org.eclipse.ui.internal.WorkbenchWindow@751d58)),sourcePriority=16640)
+HandlerActivation(commandId=org.eclipse.ltk.ui.refactor.show.refactoring.history,
+	handler=ActionDelegateHandlerProxy(null,org.eclipse.jdt.internal.ui.refactoring.actions.ShowRefactoringHistoryAction),
+	expression=AndExpression(ActionSetExpression(org.eclipse.jdt.ui.CodingActionSet,org.eclipse.ui.internal.WorkbenchWindow@751d58),WorkbenchWindowExpression(org.eclipse.ui.internal.WorkbenchWindow@751d58)),sourcePriority=16640)
+!SUBENTRY 1 org.eclipse.ui.workbench 2 0 2011-01-18 17:56:57.718
+!MESSAGE Conflict for 'org.eclipse.ltk.ui.refactor.apply.refactoring.script':
+HandlerActivation(commandId=org.eclipse.ltk.ui.refactor.apply.refactoring.script,
+	handler=ActionDelegateHandlerProxy(null,org.eclipse.jdt.internal.ui.refactoring.actions.ApplyRefactoringScriptAction),
+	expression=AndExpression(ActionSetExpression(org.eclipse.jdt.ui.CodingActionSet,org.eclipse.ui.internal.WorkbenchWindow@751d58),WorkbenchWindowExpression(org.eclipse.ui.internal.WorkbenchWindow@751d58)),sourcePriority=16640)
+HandlerActivation(commandId=org.eclipse.ltk.ui.refactor.apply.refactoring.script,
+	handler=ActionDelegateHandlerProxy(null,org.eclipse.ltk.ui.refactoring.actions.ApplyRefactoringScriptAction),
+	expression=AndExpression(ActionSetExpression(org.eclipse.cdt.ui.CodingActionSet,org.eclipse.ui.internal.WorkbenchWindow@751d58),WorkbenchWindowExpression(org.eclipse.ui.internal.WorkbenchWindow@751d58)),sourcePriority=16640)
+!SESSION 2011-01-18 17:57:12.421 -----------------------------------------------
+eclipse.buildId=M20100909-0800
+java.version=1.6.0_22
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.ui 4 0 2011-01-18 17:58:24.671
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.ant.internal.ui.AntUtil.isKnownAntFile(AntUtil.java:593)
+	at org.eclipse.ant.internal.ui.launchConfigurations.AntLaunchShortcut.launch(AntLaunchShortcut.java:465)
+	at org.eclipse.debug.internal.ui.launchConfigurations.LaunchShortcutExtension.launch(LaunchShortcutExtension.java:424)
+	at org.eclipse.debug.internal.ui.contextlaunching.ContextRunner.launchShortcut(ContextRunner.java:217)
+	at org.eclipse.debug.internal.ui.contextlaunching.ContextRunner.showShortcutSelectionDialog(ContextRunner.java:286)
+	at org.eclipse.debug.internal.ui.contextlaunching.ContextRunner.selectAndLaunch(ContextRunner.java:140)
+	at org.eclipse.debug.internal.ui.contextlaunching.ContextRunner.launch(ContextRunner.java:82)
+	at org.eclipse.debug.internal.ui.actions.RelaunchLastAction.run(RelaunchLastAction.java:77)
+	at org.eclipse.ui.internal.PluginAction.runWithEvent(PluginAction.java:251)
+	at org.eclipse.ui.internal.WWinPluginAction.runWithEvent(WWinPluginAction.java:229)
+	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:584)
+	at org.eclipse.jface.action.ActionContributionItem.access$2(ActionContributionItem.java:501)
+	at org.eclipse.jface.action.ActionContributionItem$5.handleEvent(ActionContributionItem.java:411)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1053)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4066)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3657)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2640)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2604)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2438)
+	at org.eclipse.ui.internal.Workbench$7.run(Workbench.java:671)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:664)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:115)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:369)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:619)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:574)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1407)
+!SESSION 2011-01-20 18:26:01.609 -----------------------------------------------
+eclipse.buildId=M20100909-0800
+java.version=1.6.0_22
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.cpp.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.cpp.product
+
+!ENTRY org.eclipse.ui 4 0 2011-01-20 18:26:30.453
+!MESSAGE Problems occurred restoring workbench.
+!SUBENTRY 1 unknown 0 0 2011-01-20 18:26:30.453
+!MESSAGE OK
+!SUBENTRY 1 unknown 0 0 2011-01-20 18:26:30.453
+!MESSAGE OK
+!SUBENTRY 1 unknown 0 0 2011-01-20 18:26:30.453
+!MESSAGE OK
+!SUBENTRY 1 unknown 0 0 2011-01-20 18:26:30.453
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.ui 4 0 2011-01-20 18:26:30.453
+!MESSAGE Unable to restore perspective: Workspace - C/C++.
+!SUBENTRY 2 org.eclipse.ui 0 0 2011-01-20 18:26:30.453
+!MESSAGE Problems occurred restoring perspective.
+!SUBENTRY 3 org.eclipse.ui 0 0 2011-01-20 18:26:30.453
+!MESSAGE 
+!SUBENTRY 2 unknown 0 0 2011-01-20 18:26:30.453
+!MESSAGE OK
+!SUBENTRY 2 unknown 0 0 2011-01-20 18:26:30.453
+!MESSAGE OK
+!SUBENTRY 2 unknown 0 0 2011-01-20 18:26:30.453
+!MESSAGE OK
+!SUBENTRY 2 org.eclipse.ui 4 4 2011-01-20 18:26:30.453
+!MESSAGE Could not create view: org.eclipse.jdt.ui.PackageExplorer
+!STACK 1
+org.eclipse.ui.PartInitException: Could not create view: org.eclipse.jdt.ui.PackageExplorer
+	at org.eclipse.ui.internal.ViewFactory.createView(ViewFactory.java:158)
+	at org.eclipse.ui.internal.Perspective.createReferences(Perspective.java:1249)
+	at org.eclipse.ui.internal.Perspective.restoreState(Perspective.java:1219)
+	at org.eclipse.ui.internal.WorkbenchPage$17.runWithException(WorkbenchPage.java:3211)
+	at org.eclipse.ui.internal.StartupThreading$StartupRunnable.run(StartupThreading.java:31)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:134)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4041)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3660)
+	at org.eclipse.ui.application.WorkbenchAdvisor.openWindows(WorkbenchAdvisor.java:803)
+	at org.eclipse.ui.internal.Workbench$31.runWithException(Workbench.java:1567)
+	at org.eclipse.ui.internal.StartupThreading$StartupRunnable.run(StartupThreading.java:31)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:134)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4041)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3660)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2548)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2438)
+	at org.eclipse.ui.internal.Workbench$7.run(Workbench.java:671)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:664)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:115)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:369)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:619)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:574)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1407)
+!SUBENTRY 3 org.eclipse.ui 4 0 2011-01-20 18:26:30.453
+!MESSAGE Could not create view: org.eclipse.jdt.ui.PackageExplorer
+!SUBENTRY 2 org.eclipse.ui 4 4 2011-01-20 18:26:30.453
+!MESSAGE Could not create view: org.eclipse.jdt.ui.TypeHierarchy
+!STACK 1
+org.eclipse.ui.PartInitException: Could not create view: org.eclipse.jdt.ui.TypeHierarchy
+	at org.eclipse.ui.internal.ViewFactory.createView(ViewFactory.java:158)
+	at org.eclipse.ui.internal.Perspective.createReferences(Perspective.java:1249)
+	at org.eclipse.ui.internal.Perspective.restoreState(Perspective.java:1219)
+	at org.eclipse.ui.internal.WorkbenchPage$17.runWithException(WorkbenchPage.java:3211)
+	at org.eclipse.ui.internal.StartupThreading$StartupRunnable.run(StartupThreading.java:31)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:134)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4041)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3660)
+	at org.eclipse.ui.application.WorkbenchAdvisor.openWindows(WorkbenchAdvisor.java:803)
+	at org.eclipse.ui.internal.Workbench$31.runWithException(Workbench.java:1567)
+	at org.eclipse.ui.internal.StartupThreading$StartupRunnable.run(StartupThreading.java:31)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:134)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4041)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3660)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2548)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2438)
+	at org.eclipse.ui.internal.Workbench$7.run(Workbench.java:671)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:664)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:115)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:369)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:619)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:574)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1407)
+!SUBENTRY 3 org.eclipse.ui 4 0 2011-01-20 18:26:30.453
+!MESSAGE Could not create view: org.eclipse.jdt.ui.TypeHierarchy
+!SUBENTRY 2 org.eclipse.ui 4 4 2011-01-20 18:26:30.453
+!MESSAGE Could not create view: org.eclipse.jdt.ui.JavadocView
+!STACK 1
+org.eclipse.ui.PartInitException: Could not create view: org.eclipse.jdt.ui.JavadocView
+	at org.eclipse.ui.internal.ViewFactory.createView(ViewFactory.java:158)
+	at org.eclipse.ui.internal.Perspective.createReferences(Perspective.java:1249)
+	at org.eclipse.ui.internal.Perspective.restoreState(Perspective.java:1219)
+	at org.eclipse.ui.internal.WorkbenchPage$17.runWithException(WorkbenchPage.java:3211)
+	at org.eclipse.ui.internal.StartupThreading$StartupRunnable.run(StartupThreading.java:31)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:134)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4041)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3660)
+	at org.eclipse.ui.application.WorkbenchAdvisor.openWindows(WorkbenchAdvisor.java:803)
+	at org.eclipse.ui.internal.Workbench$31.runWithException(Workbench.java:1567)
+	at org.eclipse.ui.internal.StartupThreading$StartupRunnable.run(StartupThreading.java:31)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:134)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4041)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3660)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2548)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2438)
+	at org.eclipse.ui.internal.Workbench$7.run(Workbench.java:671)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:664)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:115)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:369)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:619)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:574)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1407)
+!SUBENTRY 3 org.eclipse.ui 4 0 2011-01-20 18:26:30.453
+!MESSAGE Could not create view: org.eclipse.jdt.ui.JavadocView
+!SUBENTRY 2 org.eclipse.ui 4 4 2011-01-20 18:26:30.453
+!MESSAGE Could not create view: org.eclipse.jdt.ui.SourceView
+!STACK 1
+org.eclipse.ui.PartInitException: Could not create view: org.eclipse.jdt.ui.SourceView
+	at org.eclipse.ui.internal.ViewFactory.createView(ViewFactory.java:158)
+	at org.eclipse.ui.internal.Perspective.createReferences(Perspective.java:1249)
+	at org.eclipse.ui.internal.Perspective.restoreState(Perspective.java:1219)
+	at org.eclipse.ui.internal.WorkbenchPage$17.runWithException(WorkbenchPage.java:3211)
+	at org.eclipse.ui.internal.StartupThreading$StartupRunnable.run(StartupThreading.java:31)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:134)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4041)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3660)
+	at org.eclipse.ui.application.WorkbenchAdvisor.openWindows(WorkbenchAdvisor.java:803)
+	at org.eclipse.ui.internal.Workbench$31.runWithException(Workbench.java:1567)
+	at org.eclipse.ui.internal.StartupThreading$StartupRunnable.run(StartupThreading.java:31)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:134)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4041)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3660)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2548)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2438)
+	at org.eclipse.ui.internal.Workbench$7.run(Workbench.java:671)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:664)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:115)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:369)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:619)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:574)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1407)
+!SUBENTRY 3 org.eclipse.ui 4 0 2011-01-20 18:26:30.453
+!MESSAGE Could not create view: org.eclipse.jdt.ui.SourceView
+!SUBENTRY 2 unknown 0 0 2011-01-20 18:26:30.453
+!MESSAGE OK
+!SUBENTRY 2 unknown 0 0 2011-01-20 18:26:30.453
+!MESSAGE OK
+!SUBENTRY 2 unknown 0 0 2011-01-20 18:26:30.453
+!MESSAGE OK
+!SUBENTRY 2 unknown 0 0 2011-01-20 18:26:30.453
+!MESSAGE OK
+!SUBENTRY 2 unknown 0 0 2011-01-20 18:26:30.453
+!MESSAGE OK
+!SUBENTRY 1 unknown 0 0 2011-01-20 18:26:30.453
+!MESSAGE OK
+
+!ENTRY org.eclipse.cdt.core 1 0 2011-01-20 18:27:12.515
+!MESSAGE Indexed 'Choose' (0 sources, 8 headers) in 0.17 sec: 0 declarations; 0 references; 8 unresolved inclusions; 0 syntax errors; 0 unresolved names (0.00%)
+
+!ENTRY org.eclipse.core.jobs 4 2 2011-01-20 18:29:02.578
+!MESSAGE An internal error occurred during: "Launching New_configuration".
+!STACK 0
+java.lang.IllegalArgumentException: Path for project must have only one segment.
+	at org.eclipse.core.runtime.Assert.isLegal(Assert.java:63)
+	at org.eclipse.core.internal.resources.WorkspaceRoot.getProject(WorkspaceRoot.java:183)
+	at org.eclipse.cdt.debug.core.CDebugUtils.verifyCProject(CDebugUtils.java:589)
+	at org.eclipse.cdt.debug.core.CDebugUtils.verifyProgramPath(CDebugUtils.java:626)
+	at org.eclipse.cdt.debug.core.CDebugUtils.verifyProgramPath(CDebugUtils.java:679)
+	at org.eclipse.cdt.launch.internal.LocalCDILaunchDelegate.runLocalApplication(LocalCDILaunchDelegate.java:84)
+	at org.eclipse.cdt.launch.internal.LocalCDILaunchDelegate.launch(LocalCDILaunchDelegate.java:70)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:853)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:702)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:923)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1126)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SESSION 2011-01-21 13:06:14.671 -----------------------------------------------
+eclipse.buildId=M20100909-0800
+java.version=1.6.0_22
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.cpp.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.cpp.product
+
+!ENTRY org.eclipse.cdt.core 1 0 2011-01-21 13:06:59.781
+!MESSAGE Indexed 'HWORLD' (0 sources, 8 headers) in 0.17 sec: 0 declarations; 0 references; 8 unresolved inclusions; 0 syntax errors; 0 unresolved names (0.00%)
+
+!ENTRY org.eclipse.core.jobs 4 2 2011-01-21 13:09:58.812
+!MESSAGE An internal error occurred during: "Launching New_configuration".
+!STACK 0
+java.lang.IllegalArgumentException: Path for project must have only one segment.
+	at org.eclipse.core.runtime.Assert.isLegal(Assert.java:63)
+	at org.eclipse.core.internal.resources.WorkspaceRoot.getProject(WorkspaceRoot.java:183)
+	at org.eclipse.cdt.debug.core.CDebugUtils.verifyCProject(CDebugUtils.java:589)
+	at org.eclipse.cdt.debug.core.CDebugUtils.verifyProgramPath(CDebugUtils.java:626)
+	at org.eclipse.cdt.debug.core.CDebugUtils.verifyProgramPath(CDebugUtils.java:679)
+	at org.eclipse.cdt.launch.internal.LocalCDILaunchDelegate.runLocalApplication(LocalCDILaunchDelegate.java:84)
+	at org.eclipse.cdt.launch.internal.LocalCDILaunchDelegate.launch(LocalCDILaunchDelegate.java:70)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:853)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:702)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:923)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1126)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.core.jobs 4 2 2011-01-21 13:11:16.937
+!MESSAGE An internal error occurred during: "Launching New_configuration".
+!STACK 0
+java.lang.IllegalArgumentException: Path for project must have only one segment.
+	at org.eclipse.core.runtime.Assert.isLegal(Assert.java:63)
+	at org.eclipse.core.internal.resources.WorkspaceRoot.getProject(WorkspaceRoot.java:183)
+	at org.eclipse.cdt.launch.AbstractCLaunchDelegate2.verifyCProject(AbstractCLaunchDelegate2.java:535)
+	at org.eclipse.cdt.launch.AbstractCLaunchDelegate2.getBuildOrder(AbstractCLaunchDelegate2.java:121)
+	at org.eclipse.debug.core.model.LaunchConfigurationDelegate.saveBeforeLaunch(LaunchConfigurationDelegate.java:255)
+	at org.eclipse.debug.core.model.LaunchConfigurationDelegate.preLaunchCheck(LaunchConfigurationDelegate.java:208)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.preLaunchCheck(GdbLaunchDelegate.java:283)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:808)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:702)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:923)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1126)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.cdt.debug.core 4 105 2011-01-21 13:12:15.890
+!MESSAGE A program file was not specified in the launch configuration.
+
+!ENTRY org.eclipse.cdt.launch 4 150 2011-01-21 13:13:08.453
+!MESSAGE Error starting process.
+!STACK 0
+java.io.IOException: Cannot run program "C:\Documents and Settings\Jeffrey\workspace\HWORLD\Helloworld.c": Launching failed
+	at org.eclipse.cdt.utils.spawner.Spawner.exec(Spawner.java:297)
+	at org.eclipse.cdt.utils.spawner.Spawner.<init>(Spawner.java:88)
+	at org.eclipse.cdt.utils.spawner.ProcessFactory.exec(ProcessFactory.java:89)
+	at org.eclipse.cdt.launch.internal.LocalCDILaunchDelegate.exec(LocalCDILaunchDelegate.java:381)
+	at org.eclipse.cdt.launch.internal.LocalCDILaunchDelegate.runLocalApplication(LocalCDILaunchDelegate.java:96)
+	at org.eclipse.cdt.launch.internal.LocalCDILaunchDelegate.launch(LocalCDILaunchDelegate.java:70)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:853)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:702)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:923)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1126)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.cdt.launch 4 150 2011-01-21 13:13:08.453
+!MESSAGE Cannot run program "C:\Documents and Settings\Jeffrey\workspace\HWORLD\Helloworld.c": Launching failed
+!STACK 0
+java.io.IOException: Cannot run program "C:\Documents and Settings\Jeffrey\workspace\HWORLD\Helloworld.c": Launching failed
+	at org.eclipse.cdt.utils.spawner.Spawner.exec(Spawner.java:297)
+	at org.eclipse.cdt.utils.spawner.Spawner.<init>(Spawner.java:88)
+	at org.eclipse.cdt.utils.spawner.ProcessFactory.exec(ProcessFactory.java:89)
+	at org.eclipse.cdt.launch.internal.LocalCDILaunchDelegate.exec(LocalCDILaunchDelegate.java:381)
+	at org.eclipse.cdt.launch.internal.LocalCDILaunchDelegate.runLocalApplication(LocalCDILaunchDelegate.java:96)
+	at org.eclipse.cdt.launch.internal.LocalCDILaunchDelegate.launch(LocalCDILaunchDelegate.java:70)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:853)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:702)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:923)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1126)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.cdt.launch 4 150 2011-01-21 13:13:14.109
+!MESSAGE Error starting process.
+!STACK 0
+java.io.IOException: Cannot run program "C:\Documents and Settings\Jeffrey\workspace\HWORLD\Helloworld.c": Launching failed
+	at org.eclipse.cdt.utils.spawner.Spawner.exec(Spawner.java:297)
+	at org.eclipse.cdt.utils.spawner.Spawner.<init>(Spawner.java:88)
+	at org.eclipse.cdt.utils.spawner.ProcessFactory.exec(ProcessFactory.java:89)
+	at org.eclipse.cdt.launch.internal.LocalCDILaunchDelegate.exec(LocalCDILaunchDelegate.java:381)
+	at org.eclipse.cdt.launch.internal.LocalCDILaunchDelegate.runLocalApplication(LocalCDILaunchDelegate.java:96)
+	at org.eclipse.cdt.launch.internal.LocalCDILaunchDelegate.launch(LocalCDILaunchDelegate.java:70)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:853)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:702)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:923)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1126)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.cdt.launch 4 150 2011-01-21 13:13:14.109
+!MESSAGE Cannot run program "C:\Documents and Settings\Jeffrey\workspace\HWORLD\Helloworld.c": Launching failed
+!STACK 0
+java.io.IOException: Cannot run program "C:\Documents and Settings\Jeffrey\workspace\HWORLD\Helloworld.c": Launching failed
+	at org.eclipse.cdt.utils.spawner.Spawner.exec(Spawner.java:297)
+	at org.eclipse.cdt.utils.spawner.Spawner.<init>(Spawner.java:88)
+	at org.eclipse.cdt.utils.spawner.ProcessFactory.exec(ProcessFactory.java:89)
+	at org.eclipse.cdt.launch.internal.LocalCDILaunchDelegate.exec(LocalCDILaunchDelegate.java:381)
+	at org.eclipse.cdt.launch.internal.LocalCDILaunchDelegate.runLocalApplication(LocalCDILaunchDelegate.java:96)
+	at org.eclipse.cdt.launch.internal.LocalCDILaunchDelegate.launch(LocalCDILaunchDelegate.java:70)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:853)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:702)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:923)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1126)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.cdt.launch 4 150 2011-01-21 13:18:40.859
+!MESSAGE Error starting process.
+!STACK 0
+java.io.IOException: Cannot run program "C:\Documents and Settings\Jeffrey\workspace\HWORLD\Helloworld.c": Launching failed
+	at org.eclipse.cdt.utils.spawner.Spawner.exec(Spawner.java:297)
+	at org.eclipse.cdt.utils.spawner.Spawner.<init>(Spawner.java:88)
+	at org.eclipse.cdt.utils.spawner.ProcessFactory.exec(ProcessFactory.java:89)
+	at org.eclipse.cdt.launch.internal.LocalCDILaunchDelegate.exec(LocalCDILaunchDelegate.java:381)
+	at org.eclipse.cdt.launch.internal.LocalCDILaunchDelegate.runLocalApplication(LocalCDILaunchDelegate.java:96)
+	at org.eclipse.cdt.launch.internal.LocalCDILaunchDelegate.launch(LocalCDILaunchDelegate.java:70)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:853)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:702)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:923)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1126)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.cdt.launch 4 150 2011-01-21 13:18:40.859
+!MESSAGE Cannot run program "C:\Documents and Settings\Jeffrey\workspace\HWORLD\Helloworld.c": Launching failed
+!STACK 0
+java.io.IOException: Cannot run program "C:\Documents and Settings\Jeffrey\workspace\HWORLD\Helloworld.c": Launching failed
+	at org.eclipse.cdt.utils.spawner.Spawner.exec(Spawner.java:297)
+	at org.eclipse.cdt.utils.spawner.Spawner.<init>(Spawner.java:88)
+	at org.eclipse.cdt.utils.spawner.ProcessFactory.exec(ProcessFactory.java:89)
+	at org.eclipse.cdt.launch.internal.LocalCDILaunchDelegate.exec(LocalCDILaunchDelegate.java:381)
+	at org.eclipse.cdt.launch.internal.LocalCDILaunchDelegate.runLocalApplication(LocalCDILaunchDelegate.java:96)
+	at org.eclipse.cdt.launch.internal.LocalCDILaunchDelegate.launch(LocalCDILaunchDelegate.java:70)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:853)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:702)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:923)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1126)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SESSION 2011-03-22 17:34:10.843 -----------------------------------------------
+eclipse.buildId=M20110210-1200
+java.version=1.6.0_24
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.ui 4 0 2011-03-22 17:34:23.609
+!MESSAGE Unable to create editor ID org.eclipse.cdt.ui.editor.CEditor: No editor descriptor for id org.eclipse.cdt.ui.editor.CEditor
+!STACK 1
+org.eclipse.ui.PartInitException: No editor descriptor for id org.eclipse.cdt.ui.editor.CEditor
+	at org.eclipse.ui.internal.EditorReference.createPartHelper(EditorReference.java:601)
+	at org.eclipse.ui.internal.EditorReference.createPart(EditorReference.java:465)
+	at org.eclipse.ui.internal.WorkbenchPartReference.getPart(WorkbenchPartReference.java:595)
+	at org.eclipse.ui.internal.EditorAreaHelper.setVisibleEditor(EditorAreaHelper.java:271)
+	at org.eclipse.ui.internal.EditorManager.setVisibleEditor(EditorManager.java:1429)
+	at org.eclipse.ui.internal.EditorManager$5.runWithException(EditorManager.java:942)
+	at org.eclipse.ui.internal.StartupThreading$StartupRunnable.run(StartupThreading.java:31)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:134)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4041)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3660)
+	at org.eclipse.ui.application.WorkbenchAdvisor.openWindows(WorkbenchAdvisor.java:803)
+	at org.eclipse.ui.internal.Workbench$31.runWithException(Workbench.java:1567)
+	at org.eclipse.ui.internal.StartupThreading$StartupRunnable.run(StartupThreading.java:31)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:134)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4041)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3660)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2548)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2438)
+	at org.eclipse.ui.internal.Workbench$7.run(Workbench.java:671)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:664)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:115)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:369)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:620)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:575)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1408)
+!SUBENTRY 1 org.eclipse.ui 4 0 2011-03-22 17:34:23.609
+!MESSAGE No editor descriptor for id org.eclipse.cdt.ui.editor.CEditor
+
+!ENTRY org.eclipse.ui 2 2 2011-03-22 17:34:23.656
+!MESSAGE Ignored attempt to add saveable that was already registered
+!STACK 0
+org.eclipse.core.runtime.AssertionFailedException: unknown saveable: org.eclipse.ui.internal.DefaultSaveable@1fc9fee from part: org.eclipse.ui.internal.ErrorEditorPart@1fc9fee
+	at org.eclipse.ui.internal.SaveablesList.logWarning(SaveablesList.java:187)
+	at org.eclipse.ui.internal.SaveablesList.addModel(SaveablesList.java:117)
+	at org.eclipse.ui.internal.SaveablesList.addModels(SaveablesList.java:289)
+	at org.eclipse.ui.internal.SaveablesList.postOpen(SaveablesList.java:684)
+	at org.eclipse.ui.internal.PartList.partOpened(PartList.java:234)
+	at org.eclipse.ui.internal.PartList.access$0(PartList.java:210)
+	at org.eclipse.ui.internal.PartList$1.propertyChanged(PartList.java:40)
+	at org.eclipse.ui.internal.WorkbenchPartReference.fireInternalPropertyChange(WorkbenchPartReference.java:375)
+	at org.eclipse.ui.internal.WorkbenchPartReference.getPart(WorkbenchPartReference.java:610)
+	at org.eclipse.ui.internal.EditorAreaHelper.setVisibleEditor(EditorAreaHelper.java:271)
+	at org.eclipse.ui.internal.EditorManager.setVisibleEditor(EditorManager.java:1429)
+	at org.eclipse.ui.internal.EditorManager$5.runWithException(EditorManager.java:942)
+	at org.eclipse.ui.internal.StartupThreading$StartupRunnable.run(StartupThreading.java:31)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:134)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4041)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3660)
+	at org.eclipse.ui.application.WorkbenchAdvisor.openWindows(WorkbenchAdvisor.java:803)
+	at org.eclipse.ui.internal.Workbench$31.runWithException(Workbench.java:1567)
+	at org.eclipse.ui.internal.StartupThreading$StartupRunnable.run(StartupThreading.java:31)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:134)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4041)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3660)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2548)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2438)
+	at org.eclipse.ui.internal.Workbench$7.run(Workbench.java:671)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:664)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:115)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:369)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:620)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:575)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1408)
+
+!ENTRY org.eclipse.ui 2 2 2011-03-22 17:34:24.781
+!MESSAGE Perspective C/C++ has been made into a local copy
+
+!ENTRY org.eclipse.ui 4 0 2011-03-22 17:34:25.046
+!MESSAGE Problems occurred restoring workbench.
+!SUBENTRY 1 unknown 0 0 2011-03-22 17:34:25.046
+!MESSAGE OK
+!SUBENTRY 1 unknown 0 0 2011-03-22 17:34:25.046
+!MESSAGE OK
+!SUBENTRY 1 unknown 0 0 2011-03-22 17:34:25.046
+!MESSAGE OK
+!SUBENTRY 1 unknown 0 0 2011-03-22 17:34:25.046
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.ui 4 0 2011-03-22 17:34:25.046
+!MESSAGE Unable to restore perspective: Workspace - C/C++.
+!SUBENTRY 2 org.eclipse.ui 0 0 2011-03-22 17:34:25.046
+!MESSAGE Problems occurred restoring perspective.
+!SUBENTRY 3 org.eclipse.ui 0 0 2011-03-22 17:34:25.046
+!MESSAGE 
+!SUBENTRY 2 unknown 0 0 2011-03-22 17:34:25.046
+!MESSAGE OK
+!SUBENTRY 2 unknown 0 0 2011-03-22 17:34:25.046
+!MESSAGE OK
+!SUBENTRY 2 unknown 0 0 2011-03-22 17:34:25.046
+!MESSAGE OK
+!SUBENTRY 2 unknown 0 0 2011-03-22 17:34:25.046
+!MESSAGE OK
+!SUBENTRY 2 org.eclipse.ui 4 4 2011-03-22 17:34:25.046
+!MESSAGE Could not create view: org.eclipse.cdt.make.ui.views.MakeView
+!STACK 1
+org.eclipse.ui.PartInitException: Could not create view: org.eclipse.cdt.make.ui.views.MakeView
+	at org.eclipse.ui.internal.ViewFactory.createView(ViewFactory.java:158)
+	at org.eclipse.ui.internal.Perspective.createReferences(Perspective.java:1249)
+	at org.eclipse.ui.internal.Perspective.restoreState(Perspective.java:1219)
+	at org.eclipse.ui.internal.WorkbenchPage$17.runWithException(WorkbenchPage.java:3211)
+	at org.eclipse.ui.internal.StartupThreading$StartupRunnable.run(StartupThreading.java:31)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:134)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4041)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3660)
+	at org.eclipse.ui.application.WorkbenchAdvisor.openWindows(WorkbenchAdvisor.java:803)
+	at org.eclipse.ui.internal.Workbench$31.runWithException(Workbench.java:1567)
+	at org.eclipse.ui.internal.StartupThreading$StartupRunnable.run(StartupThreading.java:31)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:134)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4041)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3660)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2548)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2438)
+	at org.eclipse.ui.internal.Workbench$7.run(Workbench.java:671)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:664)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:115)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:369)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:620)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:575)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1408)
+!SUBENTRY 3 org.eclipse.ui 4 0 2011-03-22 17:34:25.046
+!MESSAGE Could not create view: org.eclipse.cdt.make.ui.views.MakeView
+!SUBENTRY 2 unknown 0 0 2011-03-22 17:34:25.046
+!MESSAGE OK
+!SUBENTRY 2 unknown 0 0 2011-03-22 17:34:25.046
+!MESSAGE OK
+!SUBENTRY 2 unknown 0 0 2011-03-22 17:34:25.046
+!MESSAGE OK
+!SUBENTRY 2 unknown 0 0 2011-03-22 17:34:25.046
+!MESSAGE OK
+!SUBENTRY 2 org.eclipse.ui 4 0 2011-03-22 17:34:25.046
+!MESSAGE Could not find view: org.eclipse.cdt.make.ui.views.MakeView
+!SUBENTRY 1 unknown 0 0 2011-03-22 17:34:25.046
+!MESSAGE OK

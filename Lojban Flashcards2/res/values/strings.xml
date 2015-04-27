@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="Bird">Cipni</string><string name="hello">Hello World, Flashcardviewer!</string>
+    <string name="app_name">Flash Cards</string>
+    <string name="something_not_important">Zo\'e</string>
+    <string name="Book">Cukta</string>
+    <string name="Cukta">Book</string>
+    <string name="register">Touch Registered</string>
+    <string name="Back">Back</string>
+    <string name="Forward">Forward</string>
+    <string name="Flip">Flip</string>
+    <string name="FrontSide">Front:</string>
+    <string name="BackSide">Back:</string>
+    <string name="mcard">Make Card</string>
+    <string name="send">Send</string>
+    <string name="Email">Click the load button to load a stack of flashcards from an external file.</string>
+    <string name="ymail">Target Email:</string>
+    <string name="Load">Load</string>
+    <string name="delete">Delete</string>
+    <string name="Sending">Enter an Email here and hit send to send the flashcards there</string>
+    <string name="Yemail">Your Email</string>
+    <string name="YPassword">Your Password</string>
+    <string name="TEmail">Target Email</string>
+    
+    
+</resources>

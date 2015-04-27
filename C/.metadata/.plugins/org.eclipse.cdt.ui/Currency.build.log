@@ -1,0 +1,11 @@
+
+**** Build of configuration Debug for project Currency ****
+
+**** Internal Builder is used for build               ****
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -oCurrencyCalculator.o ..\CurrencyCalculator.c
+..\CurrencyCalculator.c: In function 'main':
+..\CurrencyCalculator.c:15:8: warning: unused variable 'flag'
+..\CurrencyCalculator.c:31:1: warning: control reaches end of non-void function
+gcc -oCurrency.exe CurrencyCalculator.o
+Build complete for project Currency
+Time consumed: 438  ms.  
